@@ -9,8 +9,7 @@ import Thesis from "./components/works/thesis.jsx";
 
 const router = createBrowserRouter([
   { path: "/example-portfolio/", element: <App /> },
-  { path: "/about/2", element: [<Navbar />, <Hero />] },
-  { path: "/works/thesis", element: <Thesis /> },
+  { path: "example-portfolio/works/thesis", element: <Thesis /> },
 ]);
 
 createRoot(document.getElementById("root")).render(
