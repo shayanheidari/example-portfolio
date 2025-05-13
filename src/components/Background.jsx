@@ -20,7 +20,7 @@ const Background = () => {
                 <br />
                 Thesis:{" "}
                 <a
-                  href="/works/thesis"
+                  href="/example-portfolio/works/thesis/"
                   className="italic underline hover:text-accent cursor-pointer"
                 >
                   Quantum Annealing in Computer Vision
