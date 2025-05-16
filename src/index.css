@@ -54,6 +54,7 @@ body {
 
 .glassmorphism {
   /* Setting the size of the upper layer to 80% of the screen size*/
+  backdrop-filter: blur(4px);
   padding: 20px;
 
   /*the alpha value controls the transparency*/
@@ -61,7 +62,7 @@ body {
 
   /* This controls the blurring effect*/
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(7.5px);
+  /* -webkit-backdrop-filter: blur(4px); */
 
   /*Adding the shadow*/
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
