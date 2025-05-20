@@ -58,14 +58,13 @@ const ExpandableCard = () => {
             </motion.p>
           </>
         )}
-        <div className="btn-container p-1 rounded-4xl mt-2 bg-accent w-full flex justify-center items-center">
-          <button
-            onClick={() => {
-              setIsExpand(!isExpand);
-            }}
-          >
-            {isExpand ? "Close" : "Expand"}
-          </button>
+        <div
+          onClick={() => {
+            setIsExpand(!isExpand);
+          }}
+          className="btn-container p-1 rounded-4xl mt-2 bg-accent w-full flex justify-center items-center"
+        >
+          <button>{isExpand ? "Close" : "Expand"}</button>
         </div>
       </motion.div>
     </motion.div>
