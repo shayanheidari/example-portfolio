@@ -29,16 +29,21 @@
 
 body {
   font-family:
-    "EB Garamond", "Chivo", "Poppins", "Quicksand", "Montserrat", "Open Sans",
+    "Poppins", "EB Garamond", "Chivo", "Quicksand", "Montserrat", "Open Sans",
     sans-serif;
 }
 
+p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
 .underline_ {
-  @apply absolute bottom-0 left-0 w-full h-[2px] bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out;
+  @apply absolute bottom-0 left-0 w-full h-[2px] bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 delay-150 ease-in-out;
 }
 
 .card_ {
-  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-3 md:h-[27vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
+  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-3 md:h-[27vh] sm:h-[35vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
 }
 
 .card__ {
@@ -73,7 +78,7 @@ body {
   z-index: 4;
 }
 
-.glassmorphism:hover {
-  background: rgba(255, 255, 255, 0.9);
-  transition-duration: 300;
-}
+/* .glassmorphism:hover { */
+/*   background: rgba(255, 255, 255, 0.9); */
+/*   transition-duration: 300; */
+/* } */

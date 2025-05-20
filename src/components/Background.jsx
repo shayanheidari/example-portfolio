@@ -8,7 +8,7 @@ const Background = () => {
         id="background"
       >
         <div className="md:flex md:justify-center  md:w-[65vw] md:h-[60vh]">
-          <div className="mx-10 mt-12 flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 md:content-center-safe md:justify-items-center justify-center items-center gap-4 ">
+          <div className="mx-10 mt-12 flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 md:content-center-safe md:justify-items-stretch justify-center items-center gap-4 ">
             <div className="card_ h-[26vh] pb-4">
               <h3 className="font-semibold text-2xl text-accent pb-3">
                 Education

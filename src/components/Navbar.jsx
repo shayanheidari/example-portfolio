@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li className="relative group">
-            <a href="#about" className="scroll-smooth">
+            <a href="#about" className="scroll-smooth ">
               About
             </a>
             <span className="underline_" />
