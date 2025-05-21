@@ -6,19 +6,19 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 @import "tailwindcss";
 
-:root {
+/*:root {
   --background: #fefcff;
   --primary: #fda;
-  --accent: #004a72;
+  --accent: #10686c;
   --text: #000;
-}
-
-/*:root {
-  --background: #282828;
-  --primary: #fda;
-  --accent: #3c5d70;
-  --text: #fff;
 }*/
+
+:root {
+  --background: #121212;
+  --primary: #fda;
+  --accent: #126067;
+  --text: #fff;
+}
 
 @theme {
   --color-background: var(--background);
@@ -34,8 +34,9 @@ body {
 }
 
 p {
-  font-weight: 300;
-  font-size: 0.8rem;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: var(--text);
 }
 
 .underline_ {
@@ -43,11 +44,11 @@ p {
 }
 
 .card_ {
-  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-3 md:h-[27vh] sm:h-[35vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
+  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-sm md:drop-shadow-text bg-background p-3 h-[50vh] md:h-[95%] rounded-xl overflow-y-scroll md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
 }
 
 .card__ {
-  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-3 md:h-[50vh] h-[60vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300 md:mt-10 mt-20 text-[1.1rem] overflow-y-scroll;
+  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-3 md:h-[50vh] h-[60vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300 overflow-y-scroll;
 }
 
 #tsparticles canvas {
@@ -59,14 +60,14 @@ p {
 
 .glassmorphism {
   /* Setting the size of the upper layer to 80% of the screen size*/
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(120px);
   padding: 20px;
 
   /*the alpha value controls the transparency*/
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(28, 28, 28, 0.3);
 
   /* This controls the blurring effect*/
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(12px);
   /* -webkit-backdrop-filter: blur(4px); */
 
   /*Adding the shadow*/

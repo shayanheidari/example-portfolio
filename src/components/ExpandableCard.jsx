@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ExpandableCard.css";
-import ProfilePic from "../assets/ProfilePic.png";
+import ProfilePic from "../assets/ProfilePic.jpg";
 import { motion } from "framer-motion";
 
 const ExpandableCard = () => {
@@ -20,7 +20,7 @@ const ExpandableCard = () => {
     >
       <motion.img
         layout="position"
-        className={`${isExpand ? "hidden" : "flex"} absolute bottom-75 outline-4 outline-accent w-30 rounded-full`}
+        className={`${isExpand ? "hidden" : "flex"} absolute bottom-[calc(100%-50px)] outline-4 outline-accent w-30 rounded-full`}
         src={ProfilePic}
         alt="ProfilePic"
       />
@@ -37,16 +37,20 @@ const ExpandableCard = () => {
         >
           About Me
         </motion.h3>
-        <motion.p layout="position" className="w-full text-justify">
+        <motion.p
+          layout="position"
+          className="w-full text-justify text-balance"
+        >
           I am a computer vision researcher with over 5 years of experience in
           developing and deploying advanced 2D and 3D vision systems. My work
           lies at the intersection of artificial intelligence, photogrammetry,
           and remote sensing, with a growing specialization in marine and
           underwater environments.
         </motion.p>
+        <div className="h-2" />
         {isExpand && (
           <>
-            <motion.p {...animate} className="w-full text-justify">
+            <motion.p {...animate} className="w-full text-justify text-balance">
               Currently I am a Research Fellow on the Oceans of Change project
               at Institute of Marine Science (IMS), UoA, where I am advancing
               computer vision and underwater remote sensing methodologies to

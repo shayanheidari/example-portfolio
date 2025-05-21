@@ -8,6 +8,7 @@ import ParticlesBackground from "./components/Particle";
 import Works from "./components/Works";
 import Background from "./components/Background";
 import Expertise from "./components/Expertise";
+import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
     <>
       <Navbar />
       <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
+        <About />
         <Hero />
         <Background />
         <Expertise />

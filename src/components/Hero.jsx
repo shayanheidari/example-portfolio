@@ -1,14 +1,18 @@
 import React from "react";
-import ProfilePic from "../assets/ProfilePic.png";
-import Background from "../assets/Background.png";
+import ProfilePic from "../assets/ProfilePic.jpg";
+import BackgroundHorizontal from "../assets/BackgroundHorizontal.png";
+import BackgroundVertical from "../assets/BackgroundVertical.png";
 import ExpandableCard from "./ExpandableCard";
 
 const Hero = () => {
   return (
     <>
       <div
-        style={{ "--image-url": `url(${Background})` }}
-        className="snap-start bg-[image:var(--image-url)] bg-center bg-cover bg-no-repeat "
+        style={{
+          "--image-url-vertical": `url(${BackgroundVertical})`,
+          "--image-url-horizontal": `url(${BackgroundHorizontal})`,
+        }}
+        className="snap-start md:bg-[image:var(--image-url-horizontal)] bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
         id="about"
       >
         <div className="relative flex flex-col pt-10 md:flex-row-reverse items-center justify-center md:gap-100 gap-8 content-between mx-auto h-screen">
@@ -16,7 +20,7 @@ const Hero = () => {
             <img
               src={ProfilePic}
               alt="shahrokh"
-              className="rounded-full w-[170px] md:w-[400px] outline-4 md:outline-5 outline-background outline-offset-3"
+              className="rounded-full w-[170px] md:w-[400px] outline-4 md:outline-5 outline-accent outline-offset-3"
             />
           </div>
 

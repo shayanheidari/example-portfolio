@@ -16,14 +16,14 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="flex text-2xl justify-between fixed bg-background top-0 w-full text-text items-center px-6 mx-auto h-18 z-10">
+      <div className=" flex text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-10">
         <div className="flex flex-row gap-2 items-center">
           <div className="bg-accent h-3 w-3 rounded-lg" />
           <a className="font-semibold cursor-pointer" href="#about">
             Dr. Shahrokh Heidari
           </a>
         </div>
-        <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
+        <ul className="hidden font-extralight md:flex gap-12 z-10 cursor-pointer">
           <li className="relative group">
             <a href="#about" className="scroll-smooth ">
               About
