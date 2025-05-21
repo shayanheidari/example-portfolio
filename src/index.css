@@ -83,3 +83,13 @@ p {
 /*   background: rgba(255, 255, 255, 0.9); */
 /*   transition-duration: 300; */
 /* } */
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

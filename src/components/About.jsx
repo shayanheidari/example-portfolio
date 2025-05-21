@@ -7,10 +7,10 @@ const About = () => {
   return (
     <>
       <div className="snap-start h-screen">
-        <div className="flex md:flex-row flex-col-reverse w-full h-full bg-background text-text">
-          <div className="flex flex-col md:justify-center mt-0 md:mt-0  justify-start items-center md:w-[70vw] w-full h-[70vh] md:h-full ">
-            <div className="w-full h-full flex md:mb-0  flex-col gap-3 justify-center items-center">
-              <div className="flex justify-center">
+        <div className="flex md:flex-row flex-col-reverse w-full h-full bg-background text-text no-scrollbar">
+          <div className="flex flex-col md:justify-center mt-0 md:mt-0  justify-start items-center md:w-[70vw] w-full h-[70vh] md:h-full  no-scrollbar">
+            <div className="w-full h-full flex md:mb-0  flex-col gap-3 justify-center items-center no-scrollbar">
+              <div className="flex justify-center no-scrollbar">
                 <img
                   src={ProfilePic}
                   alt="shahrokh"
@@ -18,15 +18,15 @@ const About = () => {
                 />
               </div>
 
-              <div className="flex transition duration-500 ">
-                <div className="w-[80vw] md:max-w-[600px] opacity-100 md:p-3 p-1">
-                  <h1 className="text-text font-medium text-[1.6rem] md:text-5xl md:mt-4 md:mb-6 mb-2 text-nowrap">
+              <div className="flex transition duration-500  no-scrollbar">
+                <div className="w-[80vw] md:max-w-[600px] opacity-100 md:p-3 p-1 no-scrollbar">
+                  <h1 className="text-text font-medium text-[1.6rem] md:text-5xl md:mt-4 md:mb-6 mb-2 text-nowrap no-scrollbar">
                     Dr. Shahrokh Heidari
                   </h1>
-                  <h3 className="text-[1.4rem] md:mb-1 text-accent">
+                  <h3 className="text-[1.4rem] md:mb-1 text-accent no-scrollbar">
                     About Me
                   </h3>
-                  <p className="text-justify text-balance cursor-default font-light text-[0.8rem] md:text-[1rem] overflow-y-scroll">
+                  <p className="text-justify text-balance cursor-default font-light text-[0.8rem] md:text-[1rem] overflow-y-scroll no-scrollbar">
                     <span className="hidden md:inline">
                       I am a computer vision researcher with over 5 years of
                       experience in developing and deploying advanced 2D and 3D

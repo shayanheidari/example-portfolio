@@ -17,8 +17,13 @@ function App() {
     <>
       <Navbar />
       <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
-        <About />
-        <Hero />
+        <div className="hidden md:flex">
+          <About />
+        </div>
+
+        <div className="md:hidden">
+          <Hero />
+        </div>
         <Background />
         <Expertise />
         <Works />
