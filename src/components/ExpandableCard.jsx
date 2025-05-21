@@ -14,62 +14,60 @@ const ExpandableCard = () => {
   };
 
   return (
-    <motion.div
-      className="card md:hidden glassmorphism delay-150 ease-in duration-150 w-[80vw] flex flex-col justify-center items-center"
-      layout="position"
-    >
+    <motion.div className="flex flex-col justify-center items-center">
       <motion.img
         layout="position"
-        className={`${isExpand ? "hidden" : "flex"} absolute bottom-[calc(100%-50px)] outline-4 outline-accent w-30 rounded-full`}
+        className={`${isExpand ? "invisible" : "visible"} absolute top-[100px] mx-auto outline-4 outline-accent w-30 rounded-full`}
         src={ProfilePic}
         alt="ProfilePic"
       />
-      <motion.div layout="position">
-        <motion.h2
-          layout="position"
-          className="text-text mt-10 font-medium text-[1.6rem] md:text-5xl md:mt-4 md:mb-6 mb-2 text-nowrap"
-        >
-          Dr. Shahrokh Heidari
-        </motion.h2>
-        <motion.h3
-          layout="position"
-          className="justify-self-start text-[1.4rem] md:mb-1 text-accent"
-        >
-          About Me
-        </motion.h3>
-        <motion.p
-          layout="position"
-          className="w-full text-justify text-balance"
-        >
-          I am a computer vision researcher with over 5 years of experience in
-          developing and deploying advanced 2D and 3D vision systems. My work
-          lies at the intersection of artificial intelligence, photogrammetry,
-          and remote sensing, with a growing specialization in marine and
-          underwater environments.
-        </motion.p>
-        <div className="h-2" />
-        {isExpand && (
-          <>
-            <motion.p {...animate} className="w-full text-justify text-balance">
-              Currently I am a Research Fellow on the Oceans of Change project
-              at Institute of Marine Science (IMS), UoA, where I am advancing
-              computer vision and underwater remote sensing methodologies to
-              support the monitoring and analysis of benthic ecosystems. My
-              expertise spans image classification, segmentation, object
-              detection, depth estimation (mono/stereo), 3D reconstruction,
-              camera calibration, and high-resolution microtopographic surface
-              analysis.
-            </motion.p>
-          </>
-        )}
-        <div
-          onClick={() => {
-            setIsExpand(!isExpand);
-          }}
-          className="btn-container p-1 rounded-4xl mt-2 bg-accent w-full flex justify-center items-center"
-        >
-          <button>{isExpand ? "Close" : "Expand"}</button>
-        </div>
+
+      {isExpand && (
+        <>
+          <motion.div
+            {...animate}
+            className={`card md:hidden glassmorphism w-[80vw] flex flex-col justify-center items-center  ${isExpand ? "mb-0" : "mb-150"}`}
+            layout="position"
+          >
+            <motion.div
+              layout="position"
+              className={`${isExpand ? "mt-0" : "mt-10"}`}
+            >
+              <motion.p
+                {...animate}
+                className="w-full text-justify text-balance"
+              >
+                I am a Research Fellow on the Oceans of Change project at
+                Institute of Marine Science (IMS), UoA, where I am advancing
+                computer vision and underwater remote sensing methodologies to
+                support the monitoring and analysis of benthic ecosystems. My
+                expertise spans image classification, segmentation, object
+                detection, depth estimation (mono/stereo), 3D reconstruction,
+                camera calibration, and high-resolution microtopographic surface
+                analysis.
+              </motion.p>
+            </motion.div>
+            <motion.div
+              {...animate}
+              onClick={() => {
+                setIsExpand(!isExpand);
+              }}
+              className="btn-container p-1 rounded-4xl mt-2 bg-accent w-[100%] flex justify-center items-center"
+            >
+              <button className="w-full">
+                {isExpand ? "Close" : "About Me"}
+              </button>
+            </motion.div>
+          </motion.div>
+        </>
+      )}
+      <motion.div
+        onClick={() => {
+          setIsExpand(!isExpand);
+        }}
+        className={`btn-container absolute top-[230px]  p-1 rounded-4xl mt-2 bg-accent  p-3 ${isExpand ? "invisible" : "visible"}`}
+      >
+        <button className="w-full">{isExpand ? "Close" : "About Me"}</button>
       </motion.div>
     </motion.div>
   );
