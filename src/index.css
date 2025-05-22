@@ -34,9 +34,7 @@ body {
 }
 
 p {
-  font-weight: 200;
-  font-size: 0.9rem;
-  color: var(--text);
+  @apply md:text-[1.1rem] xl:text-[1.3rem] font-[200] text-text;
 }
 
 .underline_ {

@@ -3,15 +3,20 @@ import React from "react";
 const Expertise = () => {
   return (
     <>
-      <div className="mx-auto snap-start h-screen flex items-center justify-center">
-        <div className="w-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth px-4 snap-x">
-          <div className="ml-15 snap-center w-4/5 md:w-1/5 rounded-3xl h-[70vh] whitespace-normal card__ inline-block m-2 ">
-            <div className="h-full w-full flex flex-col p-3">
-              <h2 className="text-accent font-semibold text-2xl mb-3">
-                Quantum Annealing & Energy Minimization
-              </h2>
-              <li className="list-disc text-accent">
-                <span className="text-text text-[1.1rem]">
+      <div className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar">
+        <div className="absolute top-30 left-8">
+          <h1 className="text-accent underline cursor-pointer text-2xl">
+            Expertise
+          </h1>
+        </div>
+        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar">
+          <div className="ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
+            <h3 className="font-semibold text-2xl text-accent pb-3">
+              Quantum Annealing & Energy Minimization
+            </h3>
+            <p className="text-pretty text-text h-55 md:h-auto">
+              <li className="ml-3 list-disc text-accent">
+                <span className="text-text">
                   Linear Algebra, Calculus, Probability Theory, Graph Theory,
                   Combinatorial Optimization, Discrete Optimization, Constraint
                   Satisfaction Problems, Ising Models, QUBO (Quadratic
@@ -21,87 +26,62 @@ const Expertise = () => {
                   Techniques, Optimization Heuristics
                 </span>
               </li>
-            </div>
+            </p>
           </div>
-          <div className="snap-center w-3/4 md:w-1/5 rounded-3xl h-[70vh] whitespace-normal card__ inline-block m-2 cursor-pointer">
-            <div className="h-full w-full flex flex-col p-3">
-              <h2 className="text-accent font-semibold text-2xl mb-3">
-                Artificial Intelligence & Machine Learning
-              </h2>
-              <ul className="wrap-anywhere ml-2 text-justify text-[1.1rem]">
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+
+          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+            <h3 className="font-semibold text-2xl text-accent pb-3">
+              Artificial Intelligence & Machine Learning
+            </h3>
+            <p className="text-pretty text-text  h-45 md:h-auto">
+              <ul className="wrap-anywhere ml-2 text-left ">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
                     Supervised, Unsupervised, Self-Supervised, and
-                    Semi-Supervised Learning
+                    Semi-Supervised, Weakly Supervised Learning
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
                     Transfer Learning, Few/Zero-Shot Learning
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text">
                     Convolutional Neural Networks (CNNs), Vision Transformers
+                    (ViTs), Graph Neural Networks (GNN){" "}
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text">
                     Temporal Modeling: LRCN, ConvLSTM, RNN, GRU
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Metric Learning, Embedding Learning, Anomaly Detection
-                  </span>
-                </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Architecture optimization, domain adaptation, and
-                    cross-modal fusion
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text">
+                    Metric Learning, Embedding Learning, Anomaly Detection,
+                    Architecture Optimization, Domain Adaptation, and
+                    Cross-modal Fusion
                   </span>
                 </li>
               </ul>
-            </div>
+            </p>
           </div>
-          <div className="snap-center w-3/4 md:w-1/5 rounded-3xl h-[70vh] whitespace-normal card__ inline-block m-2 cursor-pointer">
-            <div className="h-full w-full flex flex-col p-3">
-              <h2 className="text-accent font-semibold text-2xl mb-3">
-                2D/3D Computer Vision & Scene Understanding
-              </h2>
-              <ul className="wrap-anywhere ml-2 text-justify text-[1.1rem]">
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Object Detection, Image Segmentation, Scene Classification
+          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+            <h3 className="font-semibold text-2xl text-accent pb-3">
+              2D/3D Computer Vision & Image Processing
+            </h3>
+            <p className="text-pretty text-text h-66 md:h-auto w-full">
+              <ul className="wrap-anywhere ml-2 text-left ">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Object Detection, Image Segmentation, Scene Classification,
+                    Depth Estimation (Stereo and Monocular), Point Cloud
+                    Processing
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Depth Estimation (Stereo and Monocular)
-                  </span>
-                </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Structure-from-Motion, Dense Reconstruction
-                  </span>
-                </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Integration of image-based 3D data with remote sensing for
-                    environmental monitoring
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="snap-center w-3/4 md:w-1/5 rounded-3xl h-[70vh] whitespace-normal card__ inline-block m-2 cursor-pointer">
-            <div className="h-full w-full flex flex-col p-3">
-              <h2 className="text-accent font-semibold text-2xl mb-3">
-                Image Processing
-              </h2>
-              <ul className="wrap-anywhere ml-2 text-justify text-[1.1rem]">
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
                     Image Enhancement, Noise Reduction, Histogram Analysis,
                     Morphological Operations, Feature Extraction, Texture
                     Analysis, Connected Components, Edge Detection, Filtering,
@@ -109,42 +89,51 @@ const Expertise = () => {
                   </span>
                 </li>
               </ul>
-            </div>
+            </p>
           </div>
-          <div className="mr-15 snap-center w-3/4 md:w-1/5 rounded-3xl h-[70vh] whitespace-normal card__ inline-block m-2 cursor-pointer">
-            <div className="h-full w-full flex flex-col p-3">
-              <h2 className="text-accent font-semibold text-2xl mb-3">
-                Photogrammetry & Remote Sensing
-              </h2>
-              <ul className="wrap-anywhere ml-2 text-justify text-[1.1rem]">
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Camera Calibration and Distortion Removal
+          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+            <h3 className="font-semibold text-2xl text-accent pb-3">
+              Photogrammetry & Remote Sensing
+            </h3>
+            <p className="text-pretty text-text h-66 md:h-auto w-full">
+              <ul className="wrap-anywhere ml-2 text-left">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Camera Calibration and Distortion Remova
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Epipolar Geometry, Stereo Rectification, Stereo Matching
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Epipolar Geometry, Stereo Rectification, Stereo Matching,
+                    Structure-from-Motion, Dense Reconstruction
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
                     3D Reconstruction from Mono/Stereo
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
-                    Point Cloud Generation and Processing
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Neural Radiance Fields (NeRF)
                   </span>
                 </li>
-                <li className="list-disc text-accent">
-                  <span className="text-text text-[1.1rem]">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
                     Surface Microtopography Analysis in Spatial and Frequency
                     Domains
                   </span>
                 </li>
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">Orthomosaic Generation</span>
+                </li>
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Underwater, UAV-Based, Infrared Photogrammetry
+                  </span>
+                </li>
               </ul>
-            </div>
+            </p>
           </div>
         </div>
       </div>
