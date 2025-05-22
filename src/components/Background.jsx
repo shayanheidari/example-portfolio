@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Background = () => {
   return (
@@ -20,12 +21,12 @@ const Background = () => {
               The University of Auckland, New Zealand
               <br />
               Thesis:{" "}
-              <a
-                href="/example-portfolio/works/thesis/"
+              <Link
+                href="/works/thesis/"
                 className="italic underline hover:text-accent cursor-pointer"
               >
                 Quantum Annealing in Computer Vision
-              </a>
+              </Link>
               <br />
               <h4 className="italic mt-2 md:mt-3 text-[1rem] text-accent">
                 2014 – 2016
