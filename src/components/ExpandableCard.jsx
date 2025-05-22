@@ -65,7 +65,7 @@ const ExpandableCard = () => {
         onClick={() => {
           setIsExpand(!isExpand);
         }}
-        className={`btn-container absolute bottom-[100px]  rounded-4xl mt-2 bg-accent  p-3 ${isExpand ? "invisible" : "visible"}`}
+        className={`btn-container absolute bottom-[15%]  rounded-4xl mt-2 bg-accent  p-3 ${isExpand ? "invisible" : "visible"}`}
       >
         <button className="w-full">{isExpand ? "Close" : "About Me"}</button>
       </motion.div>
