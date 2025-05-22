@@ -34,7 +34,7 @@ body {
 }
 
 p {
-  @apply md:text-[1.1rem] xl:text-[1.3rem] font-[200] text-text;
+  @apply text-[0.9rem] lg:text-[1rem] 2xl:text-[1.1rem] font-[200] text-text;
 }
 
 .underline_ {

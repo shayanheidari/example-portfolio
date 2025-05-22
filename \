@@ -33,7 +33,7 @@ const Expertise = () => {
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Artificial Intelligence & Machine Learning
             </h3>
-            <p className="text-pretty text-text  md:h-auto h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
+            <p className="text-pretty text-text  md:h-auto h-[calc(100%-70px)] overflow-y-scroll">
               <ul className="wrap-anywhere ml-2 text-left ">
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
@@ -71,7 +71,7 @@ const Expertise = () => {
             <h3 className="font-semibold text-2xl text-accent pb-3">
               2D/3D Computer Vision & Image Processing
             </h3>
-            <p className="text-pretty text-text md:h-auto w-full h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
+            <p className="text-pretty text-text md:h-auto w-full h-[calc(100%-70px)] overflow-y-scroll">
               <ul className="wrap-anywhere ml-2 text-left ">
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
@@ -95,7 +95,7 @@ const Expertise = () => {
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Photogrammetry & Remote Sensing
             </h3>
-            <p className="text-pretty text-text md:h-auto w-full h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
+            <p className="text-pretty text-text md:h-auto w-full h-[calc(100%-70px)] overflow-y-scroll">
               <ul className="wrap-anywhere ml-2 text-left">
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
