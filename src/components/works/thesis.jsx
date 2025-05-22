@@ -9,15 +9,15 @@ const Thesis = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col justify-center md:mt-35 mt-20 w-[90vw] md:w-[65vw] mx-auto">
-        <h1 className="md:text-4xl text-[1.4rem] font-semibold">
+      <div className="flex flex-col justify-center md:mt-35 mt-20 w-[90vw] md:w-[65vw] mx-auto text-text">
+        <h1 className="md:text-4xl text-[1.4rem] font-semibold text-accent">
           Quantum Annealing in Computer Vision
         </h1>
         <span className="w-full bg-accent h-[4px] mt-3 rounded-3xl" />
-        <h2 className="my-5 italic text-lg md:text-xl text-accent">
+        <h2 className="my-5 italic text-lg md:text-xl text-accent font-[200]">
           Ph.D. Thesis — Dean's List Award Recipient, July 2024
         </h2>
-        <h3 className="text-lg mt-2 underline">
+        <h3 className="text-lg mt-2 underline font-[300]">
           Featuring Fall 2024 Editor’s Choice Paper in Future Generation
           Computer Systems Journal
         </h3>
@@ -37,7 +37,7 @@ const Thesis = () => {
           Computer Vision (QCV), hoping to provide a credible
           alternative/assistant to deep learning solutions.
         </p>
-        <img src={Figure1} alt="" />
+        <img className="invert-93" src={Figure1} alt="" />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Our study focuses on Stereo Matching as a significant CV labelling
           problem. Stereo Matching is a significant challenge due to the
@@ -47,7 +47,7 @@ const Thesis = () => {
           using deep-learning-based strategies, Stereo Matching is still
           considered an open problem with no perfect solution.
         </p>
-        <img src={Figure2} alt="" />
+        <img className="invert-93" src={Figure2} alt="" />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           This study aims to advance the field of Stereo Matching by
           incorporating Quantum Annealing and developing effective quantum
@@ -67,14 +67,14 @@ const Thesis = () => {
           function, providing a flexible framework that adapts seamlessly to
           diverse Stereo Matching scenarios.
         </p>
-        <img src={Figure3} alt="" />
+        <img className="invert-93" src={Figure3} alt="" />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Given the constraints imposed by the present quantum processors,
           solving a Stereo Matching problem on full-sized images is impossible.
           To address this challenge, we introduce the first hybrid
           quantum-classical Stereo Matching algorithm.
         </p>
-        <img src={Figure4} alt="" />
+        <img className="invert-93" src={Figure4} alt="" />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To evaluate the performance of each quantum model and compare it to
           the current state-of-the-art Stereo Matching minimization techniques,
