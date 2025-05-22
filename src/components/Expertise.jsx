@@ -9,8 +9,8 @@ const Expertise = () => {
             Expertise
           </h1>
         </div>
-        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar">
-          <div className="ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
+        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-30">
+          <div className="ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar !h-[60vh]">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Quantum Annealing & Energy Minimization
             </h3>
@@ -29,7 +29,7 @@ const Expertise = () => {
             </p>
           </div>
 
-          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar !h-[60vh]">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Artificial Intelligence & Machine Learning
             </h3>
@@ -67,7 +67,7 @@ const Expertise = () => {
               </ul>
             </p>
           </div>
-          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar !h-[60vh]">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               2D/3D Computer Vision & Image Processing
             </h3>
@@ -91,7 +91,7 @@ const Expertise = () => {
               </ul>
             </p>
           </div>
-          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar !h-[60vh]">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Photogrammetry & Remote Sensing
             </h3>
