@@ -1,5 +1,5 @@
 import "./About.css";
-import ProfilePic from "../assets/ProfilePic.jpg";
+import ProfilePic from "../assets/ProfilePic.png";
 import BackgroundVertical from "../assets/BackgroundVertical.png";
 import BackgroundHorizontal from "../assets/BackgroundHorizontal.png";
 
