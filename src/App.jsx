@@ -9,6 +9,7 @@ import Works from "./components/Works";
 import Background from "./components/Background";
 import Expertise from "./components/Expertise";
 import About from "./components/About";
+import Awards from "./components/Awards";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
         <Background />
         <Expertise />
         <Works />
+        <Awards />
       </div>
     </>
   );

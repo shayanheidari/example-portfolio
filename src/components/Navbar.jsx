@@ -109,7 +109,7 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <ul className="flex justify-between mx-20 text-2xl mb-[10vh]">
+            <ul className="flex justify-between mx-20 text-2xl mb-[15vh]">
               <li className="text-accent">
                 <a href="https://scholar.google.com/citations?user=3qtK8QwAAAAJ&hl=en">
                   <FaGoogleScholar />
