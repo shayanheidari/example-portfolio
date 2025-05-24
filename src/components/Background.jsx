@@ -4,7 +4,10 @@ import { Link } from "react-router";
 const Background = () => {
   return (
     <>
-      <div className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar">
+      <div
+        className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar"
+        id="background"
+      >
         <div className="absolute top-30 left-8">
           <h1 className="text-accent underline cursor-pointer text-2xl">
             Background

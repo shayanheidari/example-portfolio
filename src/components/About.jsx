@@ -6,7 +6,7 @@ import BackgroundHorizontal from "../assets/BackgroundHorizontal.png";
 const About = () => {
   return (
     <>
-      <div className="snap-start h-screen">
+      <div className="snap-start h-screen" id="about">
         <div className="flex md:flex-row flex-col-reverse w-full h-full bg-background text-text no-scrollbar">
           <div className="flex flex-col md:justify-center mt-0 md:mt-0  justify-start items-center md:w-[70vw] w-full h-[70vh] md:h-full  no-scrollbar">
             <div className="w-full h-full flex md:mb-0  flex-col gap-3 justify-center items-center no-scrollbar">

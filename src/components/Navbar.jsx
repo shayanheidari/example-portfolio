@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGoogleScholar } from "react-icons/fa6";
 import { FaLinkedin, FaResearchgate, FaUniversity } from "react-icons/fa";
 import { SiClarivate, SiOrcid } from "react-icons/si";
-import { Link } from "react-scroll";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,42 +25,40 @@ const Navbar = () => {
         </div>
         <ul className="hidden font-extralight md:flex gap-12 z-10 cursor-pointer">
           <li className="relative group">
-            <a href="#about" className="scroll-smooth ">
-              About
-            </a>
+            <Link to="#about">About</Link>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#background" className="scroll-smooth">
+            <Link to="#background" className="scroll-smooth">
               Background
-            </a>
+            </Link>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <a href="#skills" className="scroll-smooth">
+            <Link to="#expertise" className="scroll-smooth">
               Expertise
-            </a>
+            </Link>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#works" className="scroll-smooth">
+            <Link to="#works" className="scroll-smooth">
               Works
-            </a>
+            </Link>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#awards" className="scroll-smooth">
+            <Link to="#awards" className="scroll-smooth">
               Awards
-            </a>
+            </Link>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <a href="#contact" className="scroll-smooth">
+            <Link to="#contact" className="scroll-smooth">
               Contact
-            </a>
+            </Link>
             <span className="underline_" />
           </li>
         </ul>
@@ -75,25 +73,43 @@ const Navbar = () => {
           }
         >
           <div className="flex flex-col justify-between h-screen">
-            <ul className="font-semibold text-4xl space-y-8 mt-24">
+            <ul className="font-extralight text-left ml-15 text-3xl space-y-8 mt-24">
               <li className="cursor-pointer">
-                <a href="#about" onClick={closeNav}>
+                <Link to="about" onClick={closeNav}>
                   About
-                </a>
+                </Link>
               </li>
               <li className="cursor-pointer">
-                <a href="#portfolio" onClick={closeNav}>
-                  Portfolio
-                </a>
+                <Link to="#background" onClick={closeNav}>
+                  Background
+                </Link>
               </li>
               <li className="cursor-pointer">
-                <a href="#contact" onClick={closeNav}>
+                <Link to="expertise" onClick={closeNav}>
+                  Expertise
+                </Link>
+              </li>
+
+              <li className="cursor-pointer">
+                <Link to="#works" onClick={closeNav}>
+                  Works
+                </Link>
+              </li>
+
+              <li className="cursor-pointer">
+                <Link to="#awards" onClick={closeNav}>
+                  Awards
+                </Link>
+              </li>
+
+              <li className="cursor-pointer">
+                <Link to="#contact" onClick={closeNav}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 
-            <ul className="flex gap-1 justify-around text-4xl mb-14">
+            <ul className="flex justify-between mx-20 text-2xl mb-[10vh]">
               <li className="text-accent">
                 <a href="https://scholar.google.com/citations?user=3qtK8QwAAAAJ&hl=en">
                   <FaGoogleScholar />
