@@ -136,7 +136,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="text-accent">
-                <a href="https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/thesis-and-examination/dean-s-list/deans-list-2024.html">
+                <a href="https://www.webofscience.com/wos/author/record/I-7935-2019">
                   <SiClarivate />
                 </a>
               </li>
@@ -171,7 +171,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
-            <a href="https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/thesis-and-examination/dean-s-list/deans-list-2024.html">
+            <a href="https://www.webofscience.com/wos/author/record/I-7935-2019">
               <SiClarivate />
             </a>
           </li>
