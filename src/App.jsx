@@ -5,7 +5,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ParticlesBackground from "./components/Particle";
-import Works from "./components/Works";
+import Projects from "./components/Projects";
 import Background from "./components/Background";
 import Expertise from "./components/Expertise";
 import About from "./components/About";
@@ -28,7 +28,7 @@ function App() {
         </div>
         <Background />
         <Expertise />
-        <Works />
+        <Projects />
         <Awards />
         <Contact />
       </div>
