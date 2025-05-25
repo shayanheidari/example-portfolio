@@ -9,30 +9,11 @@ const Expertise = () => {
       >
         <div className="absolute top-30 left-8">
           <h1 className="text-text font-semibold cursor-pointer text-2xl">
-            Expertise
+            Core Skills and Technical Expertise
           </h1>
         </div>
-        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
-          <div className="ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
-            <h3 className="font-semibold text-2xl text-accent pb-3">
-              Quantum Annealing & Energy Minimization
-            </h3>
-            <p className="text-pretty text-text  md:h-auto h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
-              <li className="ml-3 list-disc text-accent">
-                <span className="text-text">
-                  Linear Algebra, Calculus, Probability Theory, Graph Theory,
-                  Combinatorial Optimization, Discrete Optimization, Constraint
-                  Satisfaction Problems, Ising Models, QUBO (Quadratic
-                  Unconstrained Binary Optimization), Adiabatic Theorem, D-Wave
-                  Quantum Annealers, Minor Embedding, Chain Strength Tuning,
-                  Hybrid Quantum-Classical Workflows, Problem Mapping
-                  Techniques, Optimization Heuristics
-                </span>
-              </li>
-            </p>
-          </div>
-
-          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+        <div className="w-full md:w-[65vw] md:h-[70vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
+          <div className="ml-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Artificial Intelligence & Machine Learning
             </h3>
@@ -94,7 +75,7 @@ const Expertise = () => {
               </ul>
             </p>
           </div>
-          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
+          <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Photogrammetry & Remote Sensing
             </h3>
@@ -136,6 +117,24 @@ const Expertise = () => {
                   </span>
                 </li>
               </ul>
+            </p>
+          </div>
+          <div className="mr-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
+            <h3 className="font-semibold text-2xl text-accent pb-3">
+              Quantum Annealing & Energy Minimization
+            </h3>
+            <p className="text-pretty text-text  md:h-auto h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
+              <li className="ml-3 list-disc text-accent">
+                <span className="text-text">
+                  Linear Algebra, Calculus, Probability Theory, Graph Theory,
+                  Combinatorial Optimization, Discrete Optimization, Constraint
+                  Satisfaction Problems, Ising Models, QUBO (Quadratic
+                  Unconstrained Binary Optimization), Adiabatic Theorem, D-Wave
+                  Quantum Annealers, Minor Embedding, Chain Strength Tuning,
+                  Hybrid Quantum-Classical Workflows, Problem Mapping
+                  Techniques, Optimization Heuristics
+                </span>
+              </li>
             </p>
           </div>
         </div>
