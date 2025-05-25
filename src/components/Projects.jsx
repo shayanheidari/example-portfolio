@@ -15,14 +15,15 @@ import {
   PiNumberCircleFourFill,
   PiNumberCircleFourLight,
 } from "react-icons/pi";
+import { Link } from "react-router";
 const projects = [
   {
     img: project1,
-    title: "Image Processing Project",
+    title: "Quantum Annealing in Computer Vision",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sint distinctio aliquam odit cupiditate porro! Ad odio explicabo repudiandae minus deleniti. Deleniti natus distinctio et dolore tempora hic repellat aperiam! UI for frontend development using React",
+      "Computer Vision (CV) labelling problems play a pivotal role in low-level vision. For decades, it has been known that these problems can be elegantly formulated as discrete energy-minimization problems derived from probabilistic graphical models such as Markov Random Fields (MRFs). Despite recent advances in MRF inference algorithms (such as graph-cut and message-passing methods), the resulting energy-minimization problems are generally viewed as intractable. The emergence of quantum computations, which offer the potential for faster solutions to certain problems than classical methods, has led to an increased interest in utilizing quantum properties to overcome intractable problems. Recently, there has also been a growing interest in Quantum Computer Vision (QCV), hoping to provide a credible alternative/assistant to deep learning solutions.",
     links: {
-      site: "#",
+      site: "/example-portfolio/works/thesis/",
       github: "#",
     },
     icon: {
@@ -89,7 +90,7 @@ const Projects = () => {
             Projects
           </h1>
         </div>
-        <div className="h-full w-full md:w-[65vw] md:h-[65vh] md:mt-0 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5 drop-shadow-accent">
+        <div className="h-full w-full md:w-[65vw] md:h-[65vh] md:mt-0 mt-20 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5 drop-shadow-accent">
           <div className="flex flex-col md:gap-4 md:flex-row justify-center">
             <div className="w-full md:w-150 h-70 md:h-150 p-1 ">
               <img
@@ -107,12 +108,12 @@ const Projects = () => {
                   {projects[currentProject].description}
                 </p>
                 <div className="flex space-x-4">
-                  <a
-                    href={projects[currentProject].links.site}
+                  <Link
+                    to={projects[currentProject].links.site}
                     className="px-4 py-2 bg-background text-accent border font-extralight text-xl border-accent rounded-3xl hover:bg-accent hover:text-background transition duration-300 w-full md:w-auto text-center"
                   >
                     View Doc
-                  </a>
+                  </Link>
                 </div>
               </div>
               <ul className="ml-6 flex flex-row gap-6 justify-center mt-4 md:gap-1 self-center">

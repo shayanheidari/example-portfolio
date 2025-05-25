@@ -14,7 +14,7 @@ const Contact = () => {
           </h1>
         </div>
         <div className=" w-full md:w-[65vw] md:h-[65vh] h-[55vh]  md:mt-30 md:flex px-4 snap-x md:snap-none no-scrollbar mt-20 items-center">
-          <div className="flex flex-col h-full ml-7 md:ml-70 pb-30 justify-center font-extralight text-text text-2xl">
+          <div className="flex flex-col h-full ml-7 md:ml-70 pb-30 justify-center font-extralight text-text text-xl">
             <div className="mb-4">
               <p className="!text-accent !text-2xl mb-2">
                 <CiMail />
