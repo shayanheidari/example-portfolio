@@ -85,8 +85,8 @@ const Projects = () => {
         className="snap-start relative h-screen flex justify-center items-center "
         id="projects"
       >
-        <div className="absolute top-30">
-          <h1 className="text-text font-semibold cursor-pointer text-2xl">
+        <div className="absolute top-[12vh]">
+          <h1 className="text-text font-medium cursor-pointer text-[1.6rem]">
             Projects
           </h1>
         </div>

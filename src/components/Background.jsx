@@ -8,8 +8,8 @@ const Background = () => {
         className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar"
         id="background"
       >
-        <div className="absolute top-30">
-          <h1 className="text-text font-semibold cursor-pointer text-2xl">
+        <div className="absolute top-[12vh]">
+          <h1 className="text-text font-medium text-[1.6rem] cursor-pointer">
             Background
           </h1>
         </div>

@@ -10,8 +10,8 @@ const Awards = () => {
         className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar"
         id="awards"
       >
-        <div className="absolute top-30 left-8">
-          <h1 className="text-accent underline cursor-pointer text-2xl">
+        <div className="absolute top-[12vh]">
+          <h1 className="text-text font-medium text-[1.6rem] cursor-pointer">
             Awards
           </h1>
         </div>

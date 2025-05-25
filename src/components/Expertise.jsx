@@ -7,8 +7,8 @@ const Expertise = () => {
         className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar"
         id="expertise"
       >
-        <div className="absolute top-30 left-8">
-          <h1 className="text-text font-semibold cursor-pointer text-2xl">
+        <div className="absolute top-[12vh]">
+          <h1 className="text-text font-medium text-[1.6rem] cursor-pointer">
             Core Skills and Technical Expertise
           </h1>
         </div>
