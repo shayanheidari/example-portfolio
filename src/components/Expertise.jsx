@@ -9,7 +9,7 @@ const Expertise = () => {
       >
         <div className="absolute top-[12vh]">
           <h1 className="text-text font-medium text-[1.6rem] cursor-pointer">
-            Core Skills and Technical Expertise
+            Technical Expertise
           </h1>
         </div>
         <div className="w-full md:w-[65vw] md:h-[70vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
