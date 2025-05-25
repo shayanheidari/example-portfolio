@@ -8,8 +8,8 @@ const Background = () => {
         className="relative mx-auto snap-start h-screen flex items-center justify-center no-scrollbar"
         id="background"
       >
-        <div className="absolute top-30 left-8">
-          <h1 className="text-accent underline cursor-pointer text-2xl">
+        <div className="absolute top-30">
+          <h1 className="text-text font-semibold cursor-pointer text-2xl">
             Background
           </h1>
         </div>
@@ -47,8 +47,8 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2024 – 2025</h4>
               <span className="font-normal">Postdoctoral Fellow</span> in
               Computer Science, The University of Auckland, New Zealand <br />{" "}
-              Research Focus: AI model improvement strategies for biosecurity
-              computer vision applications.
+              <div className="h-2" /> Research Focus: AI model improvement
+              strategies for biosecurity computer vision applications.
             </p>
           </div>
           <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2 no-scrollbar">
@@ -59,11 +59,11 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2025 – Present</h4>
               <span className="font-normal">Research Fellow</span>, Institute of
               Marine Science, The University of Auckland, New Zealand
-              <br /> Research Focus: Advancing computer vision, photogrammetry,
-              and underwater remote sensing techniques for the monitoring and
-              analysis of benthic ecosystems, including high-resolution sediment
-              microtopography characterization using stereo and monocular camera
-              systems.
+              <br /> <div className="h-2" /> Research Focus: Advancing computer
+              vision, photogrammetry, and underwater remote sensing techniques
+              for the monitoring and analysis of benthic ecosystems, including
+              high-resolution sediment microtopography characterization using
+              stereo and monocular camera systems.
             </p>
           </div>
         </div>

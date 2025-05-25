@@ -1,14 +1,16 @@
 import React from "react";
-import Navbar from "../Navbar.jsx";
+import NavbarProjects from "../NavbarProjects.jsx";
 import Figure1 from "../../assets/Figure1.png";
 import Figure2 from "../../assets/Figure2.png";
 import Figure3 from "../../assets/Figure3.png";
 import Figure4 from "../../assets/Figure4.png";
+import { Link } from "react-router";
+import { CiSaveDown1 } from "react-icons/ci";
 
 const Thesis = () => {
   return (
     <>
-      <Navbar />
+      <NavbarProjects />
       <div className="flex flex-col justify-center md:mt-35 mt-20 w-[90vw] md:w-[65vw] mx-auto text-text">
         <h1 className="md:text-4xl text-[1.4rem] font-semibold text-accent">
           Quantum Annealing in Computer Vision
@@ -21,6 +23,32 @@ const Thesis = () => {
           Featuring Fall 2024 Editor’s Choice Paper in Future Generation
           Computer Systems Journal
         </h3>
+
+        <div className="mt-5 flex gap-2 justify-center md:justify-start">
+          <div className=" border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
+            <Link
+              to="works/thesis/PhD-Thesis-Shahrokh-Heidari.pdf.pdf"
+              target="_blank"
+              download
+            >
+              <p className="!text-accent">
+                <CiSaveDown1 className="inline-block text-xl" /> Thesis
+              </p>
+            </Link>
+          </div>
+          <div className="border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
+            <Link
+              to="works/thesis/PhD-Thesis-Slides-Shahrokh-Heidari.pdf"
+              target="_blank"
+              download
+            >
+              <p className="!text-accent">
+                <CiSaveDown1 className="inline-block text-xl" /> Slides
+              </p>
+            </Link>
+          </div>
+        </div>
+
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           <span className="text-4xl inline-block">C</span>omputer Vision (CV)
           labelling problems play a pivotal role in low-level vision. For
@@ -37,7 +65,11 @@ const Thesis = () => {
           Computer Vision (QCV), hoping to provide a credible
           alternative/assistant to deep learning solutions.
         </p>
-        <img className="invert-93" src={Figure1} alt="" />
+        <img
+          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          src={Figure1}
+          alt=""
+        />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Our study focuses on Stereo Matching as a significant CV labelling
           problem. Stereo Matching is a significant challenge due to the
@@ -47,7 +79,11 @@ const Thesis = () => {
           using deep-learning-based strategies, Stereo Matching is still
           considered an open problem with no perfect solution.
         </p>
-        <img className="invert-93" src={Figure2} alt="" />
+        <img
+          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          src={Figure2}
+          alt=""
+        />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           This study aims to advance the field of Stereo Matching by
           incorporating Quantum Annealing and developing effective quantum
@@ -67,14 +103,22 @@ const Thesis = () => {
           function, providing a flexible framework that adapts seamlessly to
           diverse Stereo Matching scenarios.
         </p>
-        <img className="invert-93" src={Figure3} alt="" />
+        <img
+          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          src={Figure3}
+          alt=""
+        />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Given the constraints imposed by the present quantum processors,
           solving a Stereo Matching problem on full-sized images is impossible.
           To address this challenge, we introduce the first hybrid
           quantum-classical Stereo Matching algorithm.
         </p>
-        <img className="invert-93" src={Figure4} alt="" />
+        <img
+          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          src={Figure4}
+          alt=""
+        />
         <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To evaluate the performance of each quantum model and compare it to
           the current state-of-the-art Stereo Matching minimization techniques,

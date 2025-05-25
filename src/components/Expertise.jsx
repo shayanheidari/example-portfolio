@@ -8,7 +8,7 @@ const Expertise = () => {
         id="expertise"
       >
         <div className="absolute top-30 left-8">
-          <h1 className="text-accent underline cursor-pointer text-2xl">
+          <h1 className="text-text font-semibold cursor-pointer text-2xl">
             Expertise
           </h1>
         </div>
