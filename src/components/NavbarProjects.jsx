@@ -43,8 +43,8 @@ const NavbarProjects = () => {
           </li>
 
           <li className="relative group">
-            <Link to="#works" className="scroll-smooth">
-              Works
+            <Link to="#projects" className="scroll-smooth">
+              Projects
             </Link>
             <span className="underline_" />
           </li>
@@ -91,8 +91,8 @@ const NavbarProjects = () => {
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#works" onClick={closeNav}>
-                  Works
+                <Link to="#projects" onClick={closeNav}>
+                  Projects
                 </Link>
               </li>
 
