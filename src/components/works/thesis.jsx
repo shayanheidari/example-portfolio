@@ -27,7 +27,7 @@ const Thesis = () => {
         <div className="mt-5 flex gap-2 justify-center md:justify-start">
           <div className=" border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
             <Link
-              to="works/thesis/PhD-Thesis-Shahrokh-Heidari.pdf.pdf"
+              to="PhD-Thesis-Shahrokh-Heidari.pdf.pdf"
               target="_blank"
               download
             >
@@ -38,7 +38,7 @@ const Thesis = () => {
           </div>
           <div className="border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
             <Link
-              to="works/thesis/PhD-Thesis-Slides-Shahrokh-Heidari.pdf"
+              to="PhD-Thesis-Slides-Shahrokh-Heidari.pdf"
               target="_blank"
               download
             >
