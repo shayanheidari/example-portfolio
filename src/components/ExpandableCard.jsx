@@ -17,7 +17,7 @@ const ExpandableCard = () => {
     <motion.div className="flex flex-col md:hidden justify-center items-center">
       <motion.img
         layout="position"
-        className={`${isExpand ? "invisible" : "visible"} absolute top-[100px] mx-auto outline-4 outline-accent w-30 rounded-full`}
+        className="absolute top-[100px] mx-auto outline-4 outline-accent w-30 rounded-full"
         src={ProfilePic}
         alt="ProfilePic"
       />
