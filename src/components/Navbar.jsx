@@ -19,13 +19,16 @@ const Navbar = () => {
       <div className="flex text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-30">
         <div className="flex flex-row gap-2 items-center">
           <div className="bg-accent h-3 w-3 rounded-lg" />
-          <a className="font-semibold cursor-pointer" href="/example-project/">
+          <a
+            className="font-semibold cursor-pointer"
+            href="/example-portfolio/"
+          >
             Dr. Shahrokh Heidari
           </a>
         </div>
         <ul className="hidden font-extralight md:flex gap-12 z-30 cursor-pointer">
           <li className="relative group">
-            <a href="/example-project/">About</a>
+            <a href="/example-portfolio/">About</a>
             <span className="underline_" />
           </li>
 
