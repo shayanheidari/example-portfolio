@@ -16,8 +16,8 @@ const Awards = () => {
           </h1>
         </div>
 
-        <div className="ml-15 w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
-          <div className="relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
+          <div className="ml-15 md:ml-0 relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
             <h2 className="hidden absolute bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
               <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
@@ -124,7 +124,7 @@ const Awards = () => {
               </div>
             </div>
           </div>
-          <div className="mr-15 relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+          <div className="mr-15 md:mr-0 relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
             <h2 className="hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
               <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
