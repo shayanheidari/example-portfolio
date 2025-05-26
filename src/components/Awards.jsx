@@ -17,19 +17,26 @@ const Awards = () => {
         </div>
 
         <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
-          <div className=" ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-none inline-block m-2 no-scrollbar">
-            <div className="flex flex-col justify-center md:justify-start h-full items-center">
-              <h2 className="text-accent text-4xl mb-4">
+          <div className="relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+            <h2 className="hidden absolute bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
+              <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
+              </div>
+            </h2>
+            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
+              {" "}
+              <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
+                <div className="rounded-full p-2 bg-accent text-background mx-auto">
+                  <CiTrophy />
+                </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text pb-3">
+              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
                 The University of Auckland Doctoral Scholarship
               </h3>
               <h4 className="italic text-center text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
                 June 2020
               </h4>
-
-              <div className="grid grid-cols-2 grid-rows-2 justify-stretch gap-2 mt-5">
+              <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <a href="https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html">
                     <p className="!text-accent">
@@ -48,12 +55,19 @@ const Awards = () => {
               </div>
             </div>
           </div>
-          <div className="snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-none inline-block m-2 no-scrollbar">
-            <div className="flex flex-col justify-center md:justify-start h-full items-center">
-              <h2 className="text-accent text-4xl mb-4">
+          <div className="relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+            <h2 className="hidden absolute bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
+              <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
+              </div>
+            </h2>
+            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+              <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
+                <div className="rounded-full p-2 bg-accent text-background mx-auto">
+                  <CiTrophy />
+                </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text pb-3">
+              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
                 3rd Place Best Student paper, Advanced Concepts for Intelligent
                 Vision Systems
               </h3>
@@ -72,19 +86,26 @@ const Awards = () => {
               </div>
             </div>
           </div>
-          <div className="snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-none inline-block m-2 no-scrollbar">
-            <div className="flex flex-col justify-center md:justify-start h-full items-center">
-              <h2 className="text-accent text-4xl mb-4">
+          <div className="relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+            <h2 className="hidden absolute bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
+              <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
+              </div>
+            </h2>
+            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+              {" "}
+              <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
+                <div className="rounded-full p-2 bg-accent text-background mx-auto">
+                  <CiTrophy />
+                </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text pb-3">
+              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
                 The University of Auckland Dean’s List Award
               </h3>
               <h4 className="italic text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
                 July 2024
               </h4>
-
-              <div className="grid grid-cols-2 grid-rows-2 justify-stretch gap-2 mt-5">
+              <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <a href="https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/thesis-and-examination/dean-s-list/deans-list-2024.html">
                     <p className="!text-accent">
@@ -103,12 +124,20 @@ const Awards = () => {
               </div>
             </div>
           </div>
-          <div className="mr-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-none inline-block m-2 no-scrollbar">
-            <div className="flex flex-col justify-center md:justify-start h-full items-center">
-              <h2 className="text-accent text-4xl mb-4">
+          <div className="relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
+            <h2 className="hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
+              <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
+              </div>
+            </h2>
+            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
+              <h2 className="md:hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 flex justify-center w-full text-4xl">
+                <div className="rounded-full p-2 bg-accent text-background mx-auto">
+                  <CiTrophy />
+                </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text pb-3">
+
+              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
                 Fall 2024 Editor's Choice Paper, Future Generation Computer
                 Systems journal
               </h3>

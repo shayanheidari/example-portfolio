@@ -51,11 +51,11 @@ const Background = () => {
               strategies for biosecurity computer vision applications.
             </p>
           </div>
-          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2 no-scrollbar">
+          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-[70%] !mx-auto rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2 no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Current Position
             </h3>
-            <p className="text-pretty text-text h-66 md:h-auto w-full md:max-w-[70%]">
+            <p className="text-pretty text-text h-66 md:h-auto w-full">
               <h4 className="italic text-[1rem] text-accent">2025 – Present</h4>
               <span className="font-normal">Research Fellow</span>, Institute of
               Marine Science, The University of Auckland, New Zealand

@@ -82,7 +82,7 @@ const Projects = () => {
   return (
     <>
       <div
-        className="snap-start relative h-screen flex justify-center items-center "
+        className="snap-start relative mx-auto h-screen flex justify-center items-center no-scrollbar"
         id="projects"
       >
         <div className="absolute top-[12vh]">
@@ -90,9 +90,9 @@ const Projects = () => {
             Projects
           </h1>
         </div>
-        <div className="h-full w-full md:w-[65vw] md:h-[65vh] md:mt-0 mt-20 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5 drop-shadow-accent">
+        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-0 mt-20 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
           <div className="flex flex-col md:gap-4 md:flex-row justify-center">
-            <div className="w-full md:w-150 h-70 md:h-150 p-1 ">
+            <div className="w-full md:w-150 h-70 md:h-[50vh] p-1 ">
               <img
                 src={projects[currentProject].img}
                 alt={projects[currentProject].title}
