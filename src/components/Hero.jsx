@@ -12,7 +12,7 @@ const Hero = () => {
           "--image-url-vertical": `url(${BackgroundVertical})`,
           "--image-url-horizontal": `url(${BackgroundHorizontal})`,
         }}
-        className="snap-start md:bg-[image:var(--image-url-horizontal)] bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
+        className="md:hidden snap-start md:bg-[image:var(--image-url-horizontal)] bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
         id="about"
       >
         <div className="relative flex flex-col pt-10 md:flex-row-reverse items-center justify-center md:gap-100 gap-8 content-between mx-auto h-screen">

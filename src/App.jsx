@@ -5,7 +5,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ParticlesBackground from "./components/Particle";
-import Projects from "./components/Projects";
+import ProjectList from "./components/ProjectList";
 import Background from "./components/Background";
 import Expertise from "./components/Expertise";
 import About from "./components/About";
@@ -19,16 +19,10 @@ function App() {
     <>
       <Navbar />
       <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
-        <div className="hidden md:flex">
-          <About />
-        </div>
-
-        <div className="md:hidden">
-          <Hero />
-        </div>
+        <About />
         <Background />
         <Expertise />
-        <Projects />
+        <ProjectList />
         <Awards />
         <Contact />
       </div>

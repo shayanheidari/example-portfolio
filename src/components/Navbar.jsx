@@ -16,49 +16,49 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="flex text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-10">
+      <div className="flex text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-30">
         <div className="flex flex-row gap-2 items-center">
           <div className="bg-accent h-3 w-3 rounded-lg" />
-          <a className="font-semibold cursor-pointer" href="#about">
+          <a className="font-semibold cursor-pointer" href="/">
             Dr. Shahrokh Heidari
           </a>
         </div>
-        <ul className="hidden font-extralight md:flex gap-12 z-10 cursor-pointer">
+        <ul className="hidden font-extralight md:flex gap-12 z-30 cursor-pointer">
           <li className="relative group">
-            <Link to="#about">About</Link>
+            <a href="#about">About</a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#background" className="scroll-smooth">
+            <a href="#background" className="scroll-smooth">
               Background
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <Link to="#expertise" className="scroll-smooth">
+            <a href="#expertise" className="scroll-smooth">
               Expertise
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#projects" className="scroll-smooth">
+            <a href="#projects" className="scroll-smooth">
               Projects
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#awards" className="scroll-smooth">
+            <a href="#awards" className="scroll-smooth">
               Awards
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <Link to="#contact" className="scroll-smooth">
+            <a href="#contact" className="scroll-smooth">
               Contact
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
         </ul>
@@ -75,37 +75,37 @@ const Navbar = () => {
           <div className="flex flex-col justify-between h-screen">
             <ul className="font-extralight text-left ml-15 text-3xl space-y-8 mt-24">
               <li className="cursor-pointer">
-                <Link to="about" onClick={closeNav}>
+                <a href="#about" onClick={closeNav}>
                   About
-                </Link>
+                </a>
               </li>
               <li className="cursor-pointer">
-                <Link to="#background" onClick={closeNav}>
+                <a href="#background" onClick={closeNav}>
                   Background
-                </Link>
+                </a>
               </li>
               <li className="cursor-pointer">
-                <Link to="expertise" onClick={closeNav}>
+                <a href="#expertise" onClick={closeNav}>
                   Expertise
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#projects" onClick={closeNav}>
+                <a href="#projects" onClick={closeNav}>
                   Projects
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#awards" onClick={closeNav}>
+                <a href="#awards" onClick={closeNav}>
                   Awards
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#contact" onClick={closeNav}>
+                <a href="#contact" onClick={closeNav}>
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
 

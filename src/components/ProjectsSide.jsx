@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navbar from "./Navbar";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
@@ -17,20 +18,6 @@ import {
 } from "react-icons/pi";
 import { Link } from "react-router";
 const projects = [
-  {
-    img: project1,
-    title: "Quantum Annealing in Computer Vision",
-    description:
-      "Computer Vision (CV) labelling problems play a pivotal role in low-level vision. For decades, it has been known that these problems can be elegantly formulated as discrete energy-minimization problems derived from probabilistic graphical models such as Markov Random Fields (MRFs). Despite recent advances in MRF inference algorithms (such as graph-cut and message-passing methods), the resulting energy-minimization problems are generally viewed as intractable. The emergence of quantum computations, which offer the potential for faster solutions to certain problems than classical methods, has led to an increased interest in utilizing quantum properties to overcome intractable problems. Recently, there has also been a growing interest in Quantum Computer Vision (QCV), hoping to provide a credible alternative/assistant to deep learning solutions.",
-    links: {
-      site: "/example-portfolio/works/thesis/",
-      github: "#",
-    },
-    icon: {
-      deactive: <PiNumberCircleOneLight />,
-      active: <PiNumberCircleOneFill />,
-    },
-  },
   {
     img: project2,
     title: "Object detection Project",
@@ -77,17 +64,18 @@ const projects = [
   },
 ];
 
-const Projects = () => {
+const ProjectsSide = () => {
   const [currentProject, setCurrentProject] = useState(0);
   return (
     <>
+      <Navbar />
       <div
         className="snap-start relative mx-auto h-screen flex justify-center items-center no-scrollbar"
         id="projects"
       >
         <div className="absolute top-[12vh]">
           <h1 className="text-text font-medium cursor-pointer text-[1.6rem]">
-            Projects
+            Side Projects
           </h1>
         </div>
         <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-0 mt-20 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
@@ -137,4 +125,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsSide;

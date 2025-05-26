@@ -47,8 +47,8 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2024 – 2025</h4>
               <span className="font-normal">Postdoctoral Fellow</span> in
               Computer Science, The University of Auckland, New Zealand <br />{" "}
-              <div className="h-2" /> Research Focus: AI model improvement
-              strategies for biosecurity computer vision applications.
+              <br /> Research Focus: AI model improvement strategies for
+              biosecurity computer vision applications.
             </p>
           </div>
           <div className="mr-15 md:m-0 snap-center w-4/5 md:w-[70%] !mx-auto rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2 no-scrollbar">
@@ -59,9 +59,9 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2025 – Present</h4>
               <span className="font-normal">Research Fellow</span>, Institute of
               Marine Science, The University of Auckland, New Zealand
-              <br /> <div className="h-2" /> Research Focus: Advancing computer
-              vision, photogrammetry, and underwater remote sensing techniques
-              for the monitoring and analysis of benthic ecosystems, including
+              <br /> <br /> Research Focus: Advancing computer vision,
+              photogrammetry, and underwater remote sensing techniques for the
+              monitoring and analysis of benthic ecosystems, including
               high-resolution sediment microtopography characterization using
               stereo and monocular camera systems.
             </p>
