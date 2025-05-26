@@ -23,7 +23,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
+            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
@@ -61,7 +61,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
@@ -92,7 +92,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
@@ -130,7 +130,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start !md:h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
+            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
               <h2 className="md:hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
