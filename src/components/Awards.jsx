@@ -16,26 +16,28 @@ const Awards = () => {
           </h1>
         </div>
 
-        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
+        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 mb-10 md:mb-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
           <div className="ml-15 md:ml-0 relative snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal inline-block m-2 no-scrollbar">
             <h2 className="hidden absolute bottom-[calc(100%-20px)]  z-10 md:flex justify-center w-full text-4xl">
               <div className="rounded-full p-2 bg-accent text-background mx-auto">
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
                 </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
-                The University of Auckland Doctoral Scholarship
-              </h3>
-              <h4 className="italic text-center text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
-                June 2020
-              </h4>
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
+                  The University of Auckland Doctoral Scholarship
+                </h3>
+                <h4 className="italic text-center text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
+                  June 2020
+                </h4>
+              </div>
               <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <a href="https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html">
@@ -61,20 +63,21 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
                 </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
-                3rd Place Best Student paper, Advanced Concepts for Intelligent
-                Vision Systems
-              </h3>
-              <h4 className="italic text-center text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
-                Conference (ACIVS), Kumamoto, Japan, August 2023
-              </h4>
-
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
+                  3rd Place Best Student paper, Advanced Concepts for
+                  Intelligent Vision Systems
+                </h3>
+                <h4 className="italic text-center text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
+                  Conference (ACIVS), Kumamoto, Japan, August 2023
+                </h4>
+              </div>
               <div className="mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <Link to="awards/conference.pdf" target="_blank" download>
@@ -92,19 +95,21 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
                 </div>
               </h2>
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
-                The University of Auckland Dean’s List Award
-              </h3>
-              <h4 className="italic text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
-                July 2024
-              </h4>
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
+                  The University of Auckland Dean’s List Award
+                </h3>
+                <h4 className="italic text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
+                  July 2024
+                </h4>
+              </div>
               <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <a href="https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/thesis-and-examination/dean-s-list/deans-list-2024.html">
@@ -130,21 +135,21 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-start md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
               <h2 className="md:hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
                 </div>
               </h2>
-
-              <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
-                Fall 2024 Editor's Choice Paper, Future Generation Computer
-                Systems journal
-              </h3>
-              <h4 className="italic text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
-                November, 2024
-              </h4>
-
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-normal text-xl max-w-[500px] text-center text-text py-3">
+                  Fall 2024 Editor's Choice Paper, Future Generation Computer
+                  Systems journal
+                </h3>
+                <h4 className="italic text-pretty text-accent font-extralight underline overflow-y-scroll no-scrollbar">
+                  November, 2024
+                </h4>
+              </div>
               <div className="mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
                   <Link to="awards/Annealing.pdf" target="_blank" download>
