@@ -60,7 +60,9 @@ const Background = () => {
               Marine Science, The University of Auckland, New Zealand
               <br /> <div className="h-2" /> Research Focus: Advancing computer
               vision and photogrammetry for benthic ecosystems
-              <h4 className="italic text-[1rem] text-accent">2020 – Present</h4>
+              <h4 className="italic mt-2 text-[1rem] text-accent">
+                2020 – Present
+              </h4>
               <span className="font-normal">Research Collaborator</span>,
               Intelligent Vision System Lab (
               <a
