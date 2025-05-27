@@ -20,8 +20,8 @@ function App() {
       <Navbar />
       <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
         <About />
-        <Background />
         <Expertise />
+        <Background />
         <ProjectList />
         <Awards />
         <Contact />

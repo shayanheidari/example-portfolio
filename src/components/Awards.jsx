@@ -23,7 +23,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent  ">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent no-scrollbar ">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
@@ -39,7 +39,7 @@ const Awards = () => {
                 </h4>
               </div>
               <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <a href="https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html">
                     <p className="!text-accent">
                       <CiLink className="inline-block text-xl" /> Link
@@ -47,7 +47,7 @@ const Awards = () => {
                   </a>
                 </div>
 
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <Link to="awards/scholoarship.pdf" target="_blank" download>
                     <p className="!text-accent">
                       <CiSaveDown1 className="inline-block text-xl" /> Download
@@ -63,7 +63,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent no-scrollbar">
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
@@ -79,7 +79,7 @@ const Awards = () => {
                 </h4>
               </div>
               <div className="mt-5">
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <Link to="awards/conference.pdf" target="_blank" download>
                     <p className="!text-accent">
                       <CiSaveDown1 className="inline-block text-xl" /> Download
@@ -95,7 +95,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent no-scrollbar">
               {" "}
               <h2 className="md:hidden z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
@@ -111,7 +111,7 @@ const Awards = () => {
                 </h4>
               </div>
               <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <a href="https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/doctoral/thesis-and-examination/dean-s-list/deans-list-2024.html">
                     <p className="!text-accent">
                       <CiLink className="inline-block text-xl" /> Link
@@ -119,7 +119,7 @@ const Awards = () => {
                   </a>
                 </div>
 
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <Link to="awards/Dean's List.pdf" target="_blank" download>
                     <p className="!text-accent">
                       <CiSaveDown1 className="inline-block text-xl" /> Download
@@ -135,7 +135,7 @@ const Awards = () => {
                 <CiTrophy />
               </div>
             </h2>
-            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent ">
+            <div className="flex flex-col justify-center md:justify-between md:!h-55 items-center card_ !drop-shadow-none md:border md:border-accent no-scrollbar">
               <h2 className="md:hidden md:absolute md:bottom-[calc(100%-20px)]  z-10 flex justify-center w-full text-4xl">
                 <div className="rounded-full p-2 bg-accent text-background mx-auto">
                   <CiTrophy />
@@ -151,7 +151,7 @@ const Awards = () => {
                 </h4>
               </div>
               <div className="mt-5">
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center">
+                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <Link to="awards/Annealing.pdf" target="_blank" download>
                     <p className="!text-accent">
                       <CiSaveDown1 className="inline-block text-xl" /> Download

@@ -29,7 +29,7 @@ const ProjectList = () => {
                 <h3 className="font-semibold text-2xl text-accent pb-3">
                   PhD thesis project
                 </h3>
-                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65">
+                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
                   Computer Vision (CV) labelling problems play a pivotal role in
                   low-level vision. For decades, it has been known that these
                   problems can be elegantly formulated as discrete
@@ -67,7 +67,7 @@ const ProjectList = () => {
                 <h3 className="font-semibold text-2xl text-accent pb-3">
                   Marine Projects
                 </h3>
-                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65">
+                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Adipisci reprehenderit itaque minus quam iure odit, maxime
                   labore vero cupiditate quisquam, delectus officia ipsum iusto
@@ -95,7 +95,7 @@ const ProjectList = () => {
                 <h3 className="font-semibold text-2xl text-accent pb-3">
                   Side Projects
                 </h3>
-                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65">
+                <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Adipisci reprehenderit itaque minus quam iure odit, maxime
                   labore vero cupiditate quisquam, delectus officia ipsum iusto
