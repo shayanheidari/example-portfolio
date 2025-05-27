@@ -4,7 +4,7 @@ const Expertise = () => {
   return (
     <>
       <div
-        className="relative mx-auto snap-start h-[100dvh] flex items-center justify-center no-scrollbar"
+        className="relative mx-auto snap-start h-[100dvh] min-h-[100svh] flex items-center justify-center no-scrollbar"
         id="expertise"
       >
         <div className="absolute top-[12vh]">
