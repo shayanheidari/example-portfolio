@@ -50,9 +50,9 @@ const ProjectList = () => {
 
               <Link
                 to="/example-portfolio/works/thesis/"
-                className="text-background text-center text-xl p-3 font-medium bg-accent cursor-pointer"
+                className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
-                View Page
+                More
               </Link>
             </div>
           </div>
@@ -77,9 +77,9 @@ const ProjectList = () => {
 
               <Link
                 to="/example-portfolio/works/marine/"
-                className="text-background text-center text-xl p-3 font-medium bg-accent cursor-pointer"
+                className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
-                View Page
+                More
               </Link>
             </div>
           </div>
@@ -105,9 +105,9 @@ const ProjectList = () => {
 
               <Link
                 to="/example-portfolio/works/side/"
-                className="text-background text-center text-xl p-3 font-medium bg-accent cursor-pointer"
+                className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
-                View Page
+                More
               </Link>
             </div>
           </div>
