@@ -62,14 +62,7 @@ const Background = () => {
                 2020 – Present
               </span>
               <span className="font-normal">Research Collaborator</span>,
-              Intelligent Vision System Lab (
-              <a
-                className="italic underline hover:text-accent cursor-pointer"
-                href="https://www.ivslab.auckland.ac.nz/"
-              >
-                IVSLab
-              </a>
-              ){" "}
+              Intelligent Vision System Lab ( ){" "}
             </p>
           </div>
         </div>
