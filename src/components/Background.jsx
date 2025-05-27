@@ -50,8 +50,9 @@ const Background = () => {
               </span>
               <span className="font-normal">Postdoctoral Fellow</span> in
               Computer Science, The University of Auckland, New Zealand <br />{" "}
-              <div className="h-2" /> Research Focus: AI model improvement
-              strategies for biosecurity computer vision applications.
+              <span className="block h-2" /> Research Focus: AI model
+              improvement strategies for biosecurity computer vision
+              applications.
             </p>
           </div>
           <div className="mr-15 md:m-0  snap-center w-full rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2  no-scrollbar md:w-[70%] md:!mx-auto">
@@ -64,8 +65,8 @@ const Background = () => {
               </span>
               <span className="font-normal">Research Fellow</span>, Institute of
               Marine Science, The University of Auckland, New Zealand
-              <br /> <div className="h-2" /> Research Focus: Advancing computer
-              vision and photogrammetry for benthic ecosystems
+              <br /> <span className="block h-2" /> Research Focus: Advancing
+              computer vision and photogrammetry for benthic ecosystems
               <span className="block italic mt-2 text-[1rem] text-accent">
                 2020 – Present
               </span>
