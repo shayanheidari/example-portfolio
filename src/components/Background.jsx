@@ -13,8 +13,8 @@ const Background = () => {
             Background
           </h1>
         </div>
-        <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
-          <div className="ml-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
+        <div className="w-full md:w-[65vw] md:h-[70vh] md:mt-30 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 md:justify-items-stretch  md:items-center overflow-x-scroll md:overflow-auto scroll whitespace-nowrap scroll-smooth px-4 snap-x md:snap-none no-scrollbar mt-20">
+          <div className="ml-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Education
             </h3>
@@ -38,7 +38,6 @@ const Background = () => {
               , Science and Research Branch, Azad University, Iran
             </p>
           </div>
-
           <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2  no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Postgraduate Training
@@ -47,11 +46,11 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2024 – 2025</h4>
               <span className="font-normal">Postdoctoral Fellow</span> in
               Computer Science, The University of Auckland, New Zealand <br />{" "}
-              <br /> Research Focus: AI model improvement strategies for
-              biosecurity computer vision applications.
+              <div className="h-2" /> Research Focus: AI model improvement
+              strategies for biosecurity computer vision applications.
             </p>
           </div>
-          <div className="mr-15 md:m-0 snap-center w-4/5 md:w-[70%] !mx-auto rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2 no-scrollbar">
+          <div className="mr-15 md:m-0  snap-center w-4/5 rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2  no-scrollbar md:w-[70%] md:!mx-auto">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Current Position
             </h3>
@@ -59,11 +58,18 @@ const Background = () => {
               <h4 className="italic text-[1rem] text-accent">2025 – Present</h4>
               <span className="font-normal">Research Fellow</span>, Institute of
               Marine Science, The University of Auckland, New Zealand
-              <br /> <br /> Research Focus: Advancing computer vision,
-              photogrammetry, and underwater remote sensing techniques for the
-              monitoring and analysis of benthic ecosystems, including
-              high-resolution sediment microtopography characterization using
-              stereo and monocular camera systems.
+              <br /> <div className="h-2" /> Research Focus: Advancing computer
+              vision and photogrammetry for benthic ecosystems
+              <h4 className="italic text-[1rem] text-accent">2020 – Present</h4>
+              <span className="font-normal">Research Collaborator</span>,
+              Intelligent Vision System Lab (
+              <a
+                className="italic underline hover:text-accent cursor-pointer"
+                href="https://www.ivslab.auckland.ac.nz/"
+              >
+                IVSLab
+              </a>
+              ){" "}
             </p>
           </div>
         </div>
