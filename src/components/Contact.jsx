@@ -85,7 +85,7 @@ const Contact = () => {
               <form
                 action=""
                 method="POST"
-                className="invisible md:visible max-w-6xl p-5 md:p-12"
+                className="hidden md:block max-w-6xl p-5 md:p-12"
                 id="form"
               >
                 <input
