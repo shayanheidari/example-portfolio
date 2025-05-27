@@ -42,7 +42,7 @@ p {
 }
 
 .card_ {
-  @apply border border-accent  p-3 py-5 h-[60vh] md:h-[95%] rounded-xl overflow-y-scroll md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
+  @apply border border-accent  p-3 py-5 h-[60dvh] md:h-[95%] rounded-xl overflow-y-scroll md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
 }
 
 .card__ {
