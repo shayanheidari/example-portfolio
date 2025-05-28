@@ -1,7 +1,7 @@
 import project1 from "../assets/project1.png";
-import background1 from "../assets/Background1.jpg";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+import marine from "../assets/3.jpg";
+import thesis from "../assets/1.jpg";
+import side from "../assets/2.jpg";
 import React from "react";
 import { Link } from "react-router";
 
@@ -21,7 +21,7 @@ const ProjectList = () => {
           <div className=" ml-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-accent inline-block m-2 !p-0 no-scrollbar">
             <div className="w-full h-full flex flex-col justify-between">
               <img
-                src={background1}
+                src={thesis}
                 className="w-full h-[30%] object-cover"
                 alt=""
               />
@@ -59,7 +59,7 @@ const ProjectList = () => {
           <div className="md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-accent inline-block m-2 !p-0 no-scrollbar">
             <div className="w-full h-full flex flex-col justify-between">
               <img
-                src={project2}
+                src={marine}
                 className="w-full h-[30%] object-cover"
                 alt=""
               />
@@ -86,11 +86,7 @@ const ProjectList = () => {
 
           <div className=" mr-15 md:m-0 snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ !drop-shadow-accent inline-block m-2 !p-0 no-scrollbar">
             <div className="w-full h-full flex flex-col justify-between">
-              <img
-                src={project3}
-                className="w-full h-[30%] object-cover"
-                alt=""
-              />
+              <img src={side} className="w-full h-[30%] object-cover" alt="" />
               <div className="p-3 flex flex-col grow mt-2">
                 <h3 className="font-semibold text-2xl text-accent pb-3">
                   Side Projects
