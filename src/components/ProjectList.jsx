@@ -1,4 +1,3 @@
-import project1 from "../assets/project1.png";
 import marine from "../assets/1.jpg";
 import thesis from "../assets/2.jpg";
 import side from "../assets/3.jpg";
@@ -42,7 +41,7 @@ const ProjectList = () => {
               </div>
 
               <Link
-                to="/example-portfolio/works/thesis/"
+                to="/example-portfolio/works/marine"
                 className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
                 More
@@ -65,7 +64,7 @@ const ProjectList = () => {
               </div>
 
               <Link
-                to="/example-portfolio/works/marine/"
+                to="/example-portfolio/works/side/"
                 className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
                 More
@@ -104,7 +103,7 @@ const ProjectList = () => {
               </div>
 
               <Link
-                to="/example-portfolio/works/side/"
+                to="/example-portfolio/works/thesis/"
                 className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
                 More

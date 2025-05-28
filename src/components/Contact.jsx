@@ -20,8 +20,8 @@ const Contact = () => {
             Contact
           </h1>
         </div>
-        <div className=" w-full md:w-[65vw] md:h-[65vh] h-[65vh]  md:mt-30 md:flex px-4 snap-x md:snap-none no-scrollbar mt-20 items-center">
-          <div className="flex flex-col h-full w-full mx-6 md:ml-0 pb-30 justify-center font-extralight text-text text-xl">
+        <div className=" w-full md:w-[65vw] md:h-[65vh] h-[65vh]  md:mt-30 md:flex px-6 snap-x md:snap-none no-scrollbar mt-20 items-center">
+          <div className="flex flex-col h-full w-full pb-30 justify-center items-center font-extralight text-text text-xl">
             <div className="w-full h-full flex flex-col justify-center items-center">
               <ul className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 w-full gap-3 h-full  mt-15 justify-between text-2xl mb-20 md:mb-0">
                 <li className="text-accent">
@@ -78,9 +78,6 @@ const Contact = () => {
                   </a>
                 </li>
               </ul>
-              <span className="text-accent text-center w-full block">
-                Shahrokh.Heidari@auckland.ac.nz
-              </span>
 
               <section className="hidden contact">
                 {" "}
@@ -120,6 +117,11 @@ const Contact = () => {
                   </button>
                 </form>
               </section>
+            </div>
+            <div className="w-full mx-auto">
+              <span className="text-accent w-full text-center block">
+                Shahrokh.Heidari@auckland.ac.nz
+              </span>
             </div>
           </div>
         </div>
