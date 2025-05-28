@@ -38,21 +38,13 @@ const Awards = () => {
                   June 2020
                 </h4>
               </div>
-              <div className="grid grid-cols-2 grid-rows-1 justify-stretch gap-2 mt-5">
+              <div className="grid grid-cols-1 grid-rows-1 justify-stretch gap-2 mt-5">
                 <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
                   <a href="https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html">
                     <p className="!text-accent">
                       <CiLink className="inline-block text-xl" /> Link
                     </p>
                   </a>
-                </div>
-
-                <div className="border border-accent py-1 px-3 w-full rounded-3xl text-center no-scrollbar">
-                  <Link to="awards/scholoarship.pdf" target="_blank" download>
-                    <p className="!text-accent">
-                      <CiSaveDown1 className="inline-block text-xl" /> Download
-                    </p>
-                  </Link>
                 </div>
               </div>
             </div>

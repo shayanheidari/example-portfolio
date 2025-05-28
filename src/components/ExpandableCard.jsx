@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ExpandableCard.css";
-import ProfilePic from "../assets/ProfilePic.png";
+import ProfilePic from "../assets/ProfilePic.jpg";
 import { motion } from "framer-motion";
 
 const ExpandableCard = () => {

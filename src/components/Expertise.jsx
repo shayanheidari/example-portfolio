@@ -21,8 +21,8 @@ const Expertise = () => {
               <ul className="wrap-anywhere ml-2 text-left ">
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
-                    Supervised, Unsupervised, Self-Supervised, and
-                    Semi-Supervised, Weakly Supervised Learning
+                    Supervised, Unsupervised, Self-Supervised, Semi-Supervised,
+                    and Weakly Supervised Learning
                   </span>
                 </li>
                 <li className="ml-2 list-disc text-accent">
@@ -44,8 +44,8 @@ const Expertise = () => {
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text">
                     Metric Learning, Embedding Learning, Anomaly Detection,
-                    Architecture Optimization, Domain Adaptation, and
-                    Cross-modal Fusion
+                    Architecture Optimization, Domain Adaptation, Cross-modal
+                    Fusion and Attention Mechanisms
                   </span>
                 </li>
               </ul>
@@ -83,13 +83,13 @@ const Expertise = () => {
               <ul className="wrap-anywhere ml-2 text-left">
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
-                    Camera Calibration and Distortion Remova
+                    Camera Calibration and Distortion Removal
                   </span>
                 </li>
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
                     Epipolar Geometry, Stereo Rectification, Stereo Matching,
-                    Structure-from-Motion, Dense Reconstruction
+                    Structure-from-Motion(SfM), Dense Reconstruction
                   </span>
                 </li>
                 <li className="ml-2 list-disc text-accent">
@@ -113,7 +113,8 @@ const Expertise = () => {
                 </li>
                 <li className="ml-2 list-disc text-accent">
                   <span className="text-text ">
-                    Underwater, UAV-Based, Infrared Photogrammetry
+                    Photogrammetric Modeling Across Challenging Modalities:
+                    Underwater, Aerial (UAV-Based), and Thermal/Infrared Imaging
                   </span>
                 </li>
               </ul>
@@ -121,20 +122,35 @@ const Expertise = () => {
           </div>
           <div className="mr-15 md:m-0  snap-center w-4/5 md:w-auto rounded-3xl whitespace-normal card_ inline-block m-2 no-scrollbar">
             <h3 className="font-semibold text-2xl text-accent pb-3">
-              Quantum Annealing & Energy Minimization
+              Quantum Annealing & Energy Optimization
             </h3>
             <p className="text-pretty text-text  md:h-auto h-[calc(100%-70px)] overflow-y-scroll no-scrollbar">
-              <li className="ml-3 list-disc text-accent">
-                <span className="text-text">
-                  Linear Algebra, Calculus, Probability Theory, Graph Theory,
-                  Combinatorial Optimization, Discrete Optimization, Constraint
-                  Satisfaction Problems, Ising Models, QUBO (Quadratic
-                  Unconstrained Binary Optimization), Adiabatic Theorem, D-Wave
-                  Quantum Annealers, Minor Embedding, Chain Strength Tuning,
-                  Hybrid Quantum-Classical Workflows, Problem Mapping
-                  Techniques, Optimization Heuristics
-                </span>
-              </li>
+              <ul className="wrap-anywhere ml-2 text-left">
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Linear Algebra, Calculus, Probability Theory, Graph Theory
+                  </span>
+                </li>
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Combinatorial Optimization, Discrete Optimization,
+                    Constraint Satisfaction Problems
+                  </span>
+                </li>
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    Ising Models, QUBO (Quadratic Unconstrained Binary
+                    Optimization), Adiabatic Theorem
+                  </span>
+                </li>
+                <li className="ml-2 list-disc text-accent">
+                  <span className="text-text ">
+                    D-Wave Quantum Annealers, Minor Embedding, Chain Strength
+                    Tuning, Hybrid Quantum-Classical Workflows, Problem Mapping
+                    Techniques, Optimization Heuristics
+                  </span>
+                </li>
+              </ul>
             </p>
           </div>
         </div>

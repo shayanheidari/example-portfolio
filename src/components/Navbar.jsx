@@ -78,7 +78,7 @@ const Navbar = () => {
           <div className="flex flex-col justify-between h-screen">
             <ul className="font-extralight text-left ml-15 text-3xl space-y-8 mt-24">
               <li className="cursor-pointer">
-                <a href="#about" onClick={closeNav}>
+                <a href="/example-portfolio/" onClick={closeNav}>
                   About
                 </a>
               </li>

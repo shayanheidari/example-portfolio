@@ -1,5 +1,5 @@
 import "./About.css";
-import ProfilePic from "../assets/ProfilePic.png";
+import ProfilePic from "../assets/ProfilePic.jpg";
 import BackgroundVertical from "../assets/BackgroundVertical.png";
 import BackgroundHorizontal from "../assets/BackgroundHorizontal.png";
 import ExpandableCard from "./ExpandableCard";
