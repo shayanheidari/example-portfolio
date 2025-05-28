@@ -1,7 +1,7 @@
 import project1 from "../assets/project1.png";
 import marine from "../assets/1.jpg";
-import thesis from "../assets/3.jpg";
-import side from "../assets/2.jpg";
+import thesis from "../assets/2.jpg";
+import side from "../assets/3.jpg";
 import React from "react";
 import { Link } from "react-router";
 
