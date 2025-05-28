@@ -17,15 +17,17 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
-        <About />
-        <Background />
-        <Expertise />
-        <ProjectList />
-        <Awards />
-        <Contact />
-      </div>
+      <body className="bg-background">
+        <Navbar />
+        <div className=" snap-y overflow-y-scroll h-screen snap-mandatory">
+          <About />
+          <Background />
+          <Expertise />
+          <ProjectList />
+          <Awards />
+          <Contact />
+        </div>
+      </body>
     </>
   );
 }

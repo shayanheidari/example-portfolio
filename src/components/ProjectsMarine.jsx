@@ -70,7 +70,7 @@ const ProjectsMarine = () => {
     <>
       <Navbar />
       <div
-        className="snap-start relative mx-auto h-screen flex justify-center items-center no-scrollbar"
+        className="snap-start bg-background relative mx-auto h-screen flex justify-center items-center no-scrollbar"
         id="projects"
       >
         <div className="absolute top-[12vh]">

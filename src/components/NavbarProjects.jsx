@@ -16,49 +16,52 @@ const NavbarProjects = () => {
   };
   return (
     <>
-      <div className="flex bg-background text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-10">
+      <div className="flex bg-white text-xl justify-between fixed top-0 w-full text-black items-center px-6 mx-auto h-18 z-30">
         <div className="flex flex-row gap-2 items-center">
           <div className="bg-accent h-3 w-3 rounded-lg" />
-          <a className="font-semibold cursor-pointer" href="/">
+          <a
+            className="font-semibold cursor-pointer"
+            href="/example-portfolio/"
+          >
             Dr. Shahrokh Heidari
           </a>
         </div>
-        <ul className="hidden font-extralight md:flex gap-12 z-10 cursor-pointer">
+        <ul className="hidden font-extralight md:flex gap-12 z-30 cursor-pointer">
           <li className="relative group">
-            <Link to="#about">About</Link>
+            <a href="/example-portfolio/">About</a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#background" className="scroll-smooth">
+            <a href="#background" className="scroll-smooth">
               Background
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <Link to="#expertise" className="scroll-smooth">
+            <a href="#expertise" className="scroll-smooth">
               Expertise
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#projects" className="scroll-smooth">
+            <a href="#projects" className="scroll-smooth">
               Projects
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <Link to="#awards" className="scroll-smooth">
+            <a href="#awards" className="scroll-smooth">
               Awards
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <Link to="#contact" className="scroll-smooth">
+            <a href="#contact" className="scroll-smooth">
               Contact
-            </Link>
+            </a>
             <span className="underline_" />
           </li>
         </ul>
@@ -68,44 +71,44 @@ const NavbarProjects = () => {
         <div
           className={
             nav
-              ? "text-center z-20 fixed h-full w-full left-0 top-0 bg-background"
+              ? "text-center z-20 fixed h-full w-full left-0 top-0 bg-white"
               : "fixed left-[-100%]"
           }
         >
           <div className="flex flex-col justify-between h-screen">
             <ul className="font-extralight text-left ml-15 text-3xl space-y-8 mt-24">
               <li className="cursor-pointer">
-                <Link to="about" onClick={closeNav}>
+                <a href="/example-portfolio/" onClick={closeNav}>
                   About
-                </Link>
+                </a>
               </li>
               <li className="cursor-pointer">
-                <Link to="#background" onClick={closeNav}>
+                <a href="#background" onClick={closeNav}>
                   Background
-                </Link>
+                </a>
               </li>
               <li className="cursor-pointer">
-                <Link to="expertise" onClick={closeNav}>
+                <a href="#expertise" onClick={closeNav}>
                   Expertise
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#projects" onClick={closeNav}>
+                <a href="#projects" onClick={closeNav}>
                   Projects
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#awards" onClick={closeNav}>
+                <a href="#awards" onClick={closeNav}>
                   Awards
-                </Link>
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                <Link to="#contact" onClick={closeNav}>
+                <a href="#contact" onClick={closeNav}>
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
 
@@ -145,32 +148,32 @@ const NavbarProjects = () => {
         </div>
         {/* icons  */}
         <ul className="hidden md:flex gap-4">
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://scholar.google.com/citations?user=3qtK8QwAAAAJ&hl=en">
               <FaGoogleScholar />
             </a>
           </li>
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://nz.linkedin.com/in/shahrokh-heidari-2a1338a7">
               <FaLinkedin />
             </a>
           </li>
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://profiles.auckland.ac.nz/shahrokh-heidari">
               <FaUniversity />
             </a>
           </li>
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://orcid.org/0000-0002-1727-939X">
               <SiOrcid />
             </a>
           </li>
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://www.researchgate.net/profile/Shahrokh-Heidari">
               <FaResearchgate />
             </a>
           </li>
-          <li className="cursor-pointer text-text transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
+          <li className="cursor-pointer text-black transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-accent">
             <a href="https://www.webofscience.com/wos/author/record/I-7935-2019">
               <SiClarivate />
             </a>

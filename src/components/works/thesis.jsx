@@ -11,7 +11,7 @@ const Thesis = () => {
   return (
     <>
       <NavbarProjects />
-      <div className="flex flex-col justify-center md:mt-35 mt-20 w-[90vw] md:w-[65vw] mx-auto text-text">
+      <div className="flex flex-col bg-white justify-center md:mt-35 mt-20 w-[90vw] md:w-[65vw] mx-auto text-text">
         <h1 className="md:text-4xl text-[1.4rem] font-semibold text-accent">
           Quantum Annealing in Computer Vision
         </h1>
@@ -19,7 +19,7 @@ const Thesis = () => {
         <h2 className="my-5 italic text-lg md:text-xl text-accent font-[200]">
           Ph.D. Thesis — Dean's List Award Recipient, July 2024
         </h2>
-        <h3 className="text-lg mt-2 underline font-[300]">
+        <h3 className="text-black text-lg mt-2 underline font-[300]">
           Featuring Fall 2024 Editor’s Choice Paper in Future Generation
           Computer Systems Journal
         </h3>
@@ -49,7 +49,7 @@ const Thesis = () => {
           </div>
         </div>
 
-        <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           <span className="text-4xl inline-block">C</span>omputer Vision (CV)
           labelling problems play a pivotal role in low-level vision. For
           decades, it has been known that these problems can be elegantly
@@ -70,7 +70,7 @@ const Thesis = () => {
           src={Figure1}
           alt=""
         />
-        <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Our study focuses on Stereo Matching as a significant CV labelling
           problem. Stereo Matching is a significant challenge due to the
           extensive range of mathematics involved and the complexity of
@@ -84,7 +84,7 @@ const Thesis = () => {
           src={Figure2}
           alt=""
         />
-        <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           This study aims to advance the field of Stereo Matching by
           incorporating Quantum Annealing and developing effective quantum
           models that can solve Stereo Matching problems ready for when quantum
@@ -108,7 +108,7 @@ const Thesis = () => {
           src={Figure3}
           alt=""
         />
-        <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           Given the constraints imposed by the present quantum processors,
           solving a Stereo Matching problem on full-sized images is impossible.
           To address this challenge, we introduce the first hybrid
@@ -119,7 +119,7 @@ const Thesis = () => {
           src={Figure4}
           alt=""
         />
-        <p className="text-text text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To evaluate the performance of each quantum model and compare it to
           the current state-of-the-art Stereo Matching minimization techniques,
           we create a stereo dataset using Middlebury images and two natural
@@ -131,7 +131,7 @@ const Thesis = () => {
           potential for Stereo Matching applications has yet to be fully
           realized. Our investigation also extends to the limitations.
         </p>
-        <p className="font-semibold text-text text-justify tracking-normal md:text-[1.1rem] text-[1rem] my-2">
+        <p className="font-semibold !text-black text-justify tracking-normal md:text-[1.1rem] text-[1rem] my-2">
           <span className="text-accent font-bold text-2xl">Publications</span>{" "}
           <br />
           <br />

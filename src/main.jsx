@@ -19,9 +19,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <html className="scroll-smooth" lang="en">
-      <body className="bg-background">
-        <RouterProvider router={router} />
-      </body>
+      <RouterProvider router={router} />
     </html>
   </StrictMode>,
 );
