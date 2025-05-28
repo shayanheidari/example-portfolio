@@ -53,6 +53,12 @@ const Background = () => {
               <span className="block h-2" /> Research Focus: AI model
               improvement strategies for biosecurity computer vision
               applications.
+              <span className="block mt-2 italic text-[1rem] text-accent">
+                2024 – 2025
+              </span>
+              <span className="font-normal">Computer Vision Intern</span>, Imagr
+              Ltd Multi-view, multi-object re-identification for a smart
+              shopping cart equipped with a three-camera system.
             </p>
           </div>
           <div className="mr-15 md:m-0  snap-center w-[80%] rounded-3xl whitespace-normal card_ inline-block m-2 md:col-span-2  no-scrollbar md:w-[70%] md:!mx-auto">
