@@ -11,6 +11,7 @@ import Expertise from "./components/Expertise";
 import About from "./components/About";
 import Awards from "./components/Awards";
 import Contact from "./components/Contact.jsx";
+import Photos from "./components/Photos.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +25,7 @@ function App() {
           <Background />
           <Expertise />
           <ProjectList />
+          <Photos />
           <Awards />
           <Contact />
         </div>
