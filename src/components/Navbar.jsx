@@ -51,6 +51,12 @@ const Navbar = () => {
             </a>
             <span className="underline_" />
           </li>
+          <li className="relative group">
+            <a href="#photos" className="scroll-smooth">
+              Photos
+            </a>
+            <span className="underline_" />
+          </li>
 
           <li className="relative group">
             <a href="#awards" className="scroll-smooth">
@@ -96,6 +102,12 @@ const Navbar = () => {
               <li className="cursor-pointer">
                 <a href="#projects" onClick={closeNav}>
                   Projects
+                </a>
+              </li>
+
+              <li className="cursor-pointer">
+                <a href="#photos" onClick={closeNav}>
+                  Photos
                 </a>
               </li>
 

@@ -53,6 +53,13 @@ const NavbarProjects = () => {
           </li>
 
           <li className="relative group">
+            <a href="#photos" className="scroll-smooth">
+              Photos
+            </a>
+            <span className="underline_" />
+          </li>
+
+          <li className="relative group">
             <a href="#awards" className="scroll-smooth">
               Awards
             </a>
@@ -99,6 +106,11 @@ const NavbarProjects = () => {
                 </a>
               </li>
 
+              <li className="cursor-pointer">
+                <a href="#photos" onClick={closeNav}>
+                  Photos
+                </a>
+              </li>
               <li className="cursor-pointer">
                 <a href="#awards" onClick={closeNav}>
                   Awards

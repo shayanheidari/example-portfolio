@@ -83,6 +83,10 @@ const projects = [
 const Photos = () => {
   const [currentProject, setCurrentProject] = useState(0);
   const [currentPic, setCurrentPic] = useState(0);
+  const handleClick = () => {
+    setCurrentProject(index);
+    setCurrentPic(0);
+  };
   return (
     <>
       <div
@@ -128,7 +132,7 @@ const Photos = () => {
                 {projects.map((project, index) => (
                   <li
                     key={index}
-                    onClick={() => setCurrentProject(index)}
+                    onClick={(() => setCurrentProject(index), setCurrentPic(0))}
                     className={`text-4xl cursor-pointer ${currentProject === index ? "text-accent" : "text-text"}`}
                   >
                     {currentProject === index
