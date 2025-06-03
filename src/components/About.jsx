@@ -25,7 +25,7 @@ const About = () => {
                     Dr. Shahrokh Heidari
                   </h1>
                   <h3 className="text-[1.4rem] md:mb-1 text-accent no-scrollbar">
-                    About Me
+                    About Shah
                   </h3>
                   <p className="text-justify text-balance cursor-default font-light text-[0.8rem] md:text-[1rem] overflow-y-scroll no-scrollbar">
                     <span className="hidden md:inline">
@@ -86,7 +86,7 @@ const About = () => {
               <h1 className="text-text font-medium text-[1.6rem] md:text-5xl md:mt-4 md:mb-6 mb-2 text-nowrap">
                 Dr. Shahrokh Heidari
               </h1>
-              <h3 className="text-[1.4rem] md:mb-1 text-accent">About Me</h3>
+              <h3 className="text-[1.4rem] md:mb-1 text-accent">About Shah</h3>
               <p className="text-justify text-balance cursor-default font-light text-[0.8rem] md:text-[1rem]">
                 <span className="hidden md:inline">
                   I am a computer vision researcher with over 5 years of

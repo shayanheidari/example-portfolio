@@ -1,9 +1,12 @@
 import React from "react";
 import NavbarProjects from "../NavbarProjects.jsx";
-import Figure1 from "../../assets/Figure1.png";
-import Figure2 from "../../assets/Figure2.png";
-import Figure3 from "../../assets/Figure3.png";
-import Figure4 from "../../assets/Figure4.png";
+import MarineVid from "../../assets/works/marine/1/marine.mp4";
+import Figure1 from "../../assets/works/marine/1/Figure1.png";
+import Figure2 from "../../assets/works/marine/1/Figure2.jpg";
+import Figure3 from "../../assets/works/marine/1/Figure3.png";
+import Figure4 from "../../assets/works/marine/1/Figure4.png";
+import Figure5 from "../../assets/works/marine/1/Figure5.jpg";
+import Figure6 from "../../assets/works/marine/1/Figure6.jpg";
 import { Link } from "react-router";
 import { CiSaveDown1 } from "react-icons/ci";
 
@@ -18,35 +21,116 @@ const Marine1 = () => {
         </h1>
         <span className="w-full bg-accent h-[4px] mt-3 rounded-3xl" />
 
-        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
-          <span className="text-4xl inline-block">C</span>omputer Vision (CV)
-          labelling problems play a pivotal role in low-level vision. For
-          decades, it has been known that these problems can be elegantly
-          formulated as discrete energy-minimization problems derived from
-          probabilistic graphical models such as Markov Random Fields (MRFs).
-          Despite recent advances in MRF inference algorithms (such as graph-cut
-          and message-passing methods), the resulting energy-minimization
-          problems are generally viewed as intractable. The emergence of quantum
-          computations, which offer the potential for faster solutions to
-          certain problems than classical methods, has led to an increased
-          interest in utilizing quantum properties to overcome intractable
-          problems. Recently, there has also been a growing interest in Quantum
-          Computer Vision (QCV), hoping to provide a credible
-          alternative/assistant to deep learning solutions.
-        </p>
-        <img
+        <video
+          src={MarineVid}
+          autoPlay
+          muted
+          loop
           className="rounded-xl md:rounded-3xl m-4 md:m-10"
-          src={Figure1}
-          alt=""
-        />
+        ></video>
+
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
-          Our study focuses on Stereo Matching as a significant CV labelling
-          problem. Stereo Matching is a significant challenge due to the
-          extensive range of mathematics involved and the complexity of
-          recovering unknowns from insufficient information. Despite being
-          researched since the 1970s and considering the most recent advances
-          using deep-learning-based strategies, Stereo Matching is still
-          considered an open problem with no perfect solution.
+          <span className="text-4xl inline-block">T</span>his research is part
+          of the{" "}
+          <a
+            href="https://www.climatechange.ai/innovation_grants/2023/3"
+            className="text-accent"
+          >
+            Climate Change AI (CCAI)
+          </a>{" "}
+          – 2023 initiative, spearheaded by{" "}
+          <a
+            href="https://profiles.auckland.ac.nz/arie-spyksma"
+            className="text-accent"
+          >
+            Dr. Arie Spyksma
+          </a>
+          . The CCAI project addresses the ecological threats posed by
+          climate-driven species redistributions, with a focus on the rapid
+          proliferation of sea urchins and their impact on kelp-dominated reef
+          systems across Australia and New Zealand. By leveraging machine
+          learning, the project aims to deliver scalable tools for monitoring
+          urchin expansion and kelp forest decline, providing actionable data
+          for proactive reef management.
+        </p>
+
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+          I had the honor of collaborating with{" "}
+          <a
+            href="https://profiles.auckland.ac.nz/katerina-taskova/about"
+            className="text-accent"
+          >
+            Dr. Katerina Taskova
+          </a>
+          , Kelham Rawlinson, and{" "}
+          <a
+            href="https://profiles.auckland.ac.nz/arie-spyksma"
+            className="text-accent"
+          >
+            Dr. Arie Spyksma
+          </a>{" "}
+          to develop advanced AI tools for automated habitat classification of
+          shallow reef environments. This work aims to address a growing
+          ecological crisis: the rapid transformation of kelp forests into
+          urchin barrens. Despite the increasing availability of underwater
+          imagery for reef monitoring, the manual annotation and analysis of
+          these datasets remain labor-intensive, time-consuming, and spatially
+          limited. Traditional monitoring methods are not scalable, especially
+          given the urgency of climate-driven ecological change. Many prior
+          studies focused on visually distinct and spatially uniform habitats
+          like coral reefs or surface-emergent kelp, but these approaches fall
+          short when dealing with heterogeneous, visually ambiguous, and
+          transitional habitats. To address this, our study set out to develop
+          an ensemble machine learning framework capable of providing accurate,
+          interpretable, and scalable habitat classification. Our work builds
+          upon pre-existing underwater imagery datasets annotated using the
+          random point count method, in which ecologists place random markers
+          across each image and label the species directly beneath those points.
+        </p>
+        <img className="m-4 md:m-10" src={Figure1} alt="" />
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+          While effective for species abundance estimation, this approach
+          introduces several challenges for training machine learning models:
+          <ul className="my-2">
+            <li className="list-disc ml-10">
+              Labels are sparse and localized, capturing only a limited portion
+              of the ecological context.{" "}
+            </li>
+            <li className="list-disc ml-10">
+              Important visual patterns like spatial zonation, structural
+              continuity, or ecological transitions are often missed.
+            </li>
+            <li className="list-disc ml-10">
+              Class imbalance is common, with underrepresented or visually
+              ambiguous classes introducing noise or bias into the model.
+            </li>
+          </ul>
+          To overcome these limitations, we adopted a multi-scale strategy that
+          combines a <span className="font-normal">patch-level classifier</span>{" "}
+          for fine-grained species identification, a{" "}
+          <span className="font-normal">frame-level classifier</span> for
+          capturing broader ecological patterns, and a{" "}
+          <span className="font-normal">YOLOv5-based urchin detector</span> to
+          quantify urchin presence, enabling accurate classification of both
+          distinct and transitional reef habitats.
+        </p>
+
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
+          Our patch dataset, sourced from 113 sub-datasets across coastal
+          Australia and New Zealand, was carefully refined to remove
+          underrepresented, ambiguous, or visually overlapping classes,
+          resulting in a curated set of{" "}
+          <span className="font-normal">218,000 image patches</span> used for
+          localized classification. In parallel, we assembled a frame dataset of{" "}
+          <span className="font-normal">8,238 full-frame images</span>, labeled
+          into five ecologically meaningful habitat types to capture large-scale
+          spatial structure and mitigate annotation bias. To quantify urchin
+          presence, a key driver of reef degradation, we integrated{" "}
+          <span className="font-normal">Urchinbot</span> developed and trained
+          by Kelham Rawlinson on{" "}
+          <span className="font-normal">9,872 annotated images</span> of three
+          urchin species, providing precise instance-level detections beyond
+          what patch/frame classifiers could reliably offer.
         </p>
         <img
           className="rounded-xl md:rounded-3xl m-4 md:m-10"
@@ -54,101 +138,55 @@ const Marine1 = () => {
           alt=""
         />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
-          This study aims to advance the field of Stereo Matching by
-          incorporating Quantum Annealing and developing effective quantum
-          models that can solve Stereo Matching problems ready for when quantum
-          computers can handle large images. Our study begins with a fundamental
-          quantum solution for Stereo Matching in the literature. We
-          significantly enhance its quantum model complexity using a graph-cut
-          method. Although these quantum models can address a particular Stereo
-          Matching problem, the underlying energy minimization problem can be
-          solved classically in polynomial time. As a result, we shift our focus
-          to a more intricate Stereo Matching problem that can be reduced to the
-          minimum multi-way cut problem. It is known to be NP-Hard and, at least
-          by current algorithmic means, cannot be solved in polynomial time on a
-          Turing Machine. Therefore, we introduce the first quantum model that
-          can effectively solve the minimum multi-way cut problem. We also
-          propose a quantum model that can represent any Stereo Matching energy
-          function, providing a flexible framework that adapts seamlessly to
-          diverse Stereo Matching scenarios.
+          For both patch and frame classification, we employed deep
+          convolutional neural networks using a transfer learning approach.
+          Pre-trained models were repurposed as feature extractors, with custom
+          dense classification heads added for task-specific learning. Extensive
+          benchmarking was conducted across multiple architectures, and based on
+          validation performance, ConvNeXtBase was selected for the patch
+          classifier, while InceptionV3 was chosen for the frame classifier for
+          its robustness in modeling broader spatial and ecological patterns.
         </p>
         <img
           className="rounded-xl md:rounded-3xl m-4 md:m-10"
           src={Figure3}
           alt=""
         />
-        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
-          Given the constraints imposed by the present quantum processors,
-          solving a Stereo Matching problem on full-sized images is impossible.
-          To address this challenge, we introduce the first hybrid
-          quantum-classical Stereo Matching algorithm.
-        </p>
         <img
           className="rounded-xl md:rounded-3xl m-4 md:m-10"
           src={Figure4}
           alt=""
         />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
-          To evaluate the performance of each quantum model and compare it to
-          the current state-of-the-art Stereo Matching minimization techniques,
-          we create a stereo dataset using Middlebury images and two natural
-          images to incorporate complex real-world scene structures. Our quantum
-          solutions demonstrate that Quantum Annealing can yield promising
-          results for Stereo Matching problems, with improved accuracy on
-          certain stereo images and competitive performance on others. However,
-          the development of quantum computers is ongoing, and their complete
-          potential for Stereo Matching applications has yet to be fully
-          realized. Our investigation also extends to the limitations.
+          To integrate the strengths of both spatial and species-level
+          information, we developed a rule-based habitat classifier that
+          combines outputs from the frame classifier, patch classifier, and
+          urchin detector to provide an ecologically meaningful classification
+          for each frame. Given a single input image, the system first extracts
+          three sets of information: (1) the frame classifier outputs a
+          predicted habitat class along with a confidence score, (2) the patch
+          classifier analyzes a fixed grid of patches across the image and
+          provides the proportion of valid patches assigned to each habitat
+          class (excluding those classified as urchin or deemed unscorable), and
+          (3) the urchin detector (Urchinbot) returns the total number of
+          urchins detected in the frame. The rule-based classifier then uses a
+          series of logic conditions to refine or override the initial frame
+          prediction based on these three inputs. The result is one of seven
+          output classes:{" "}
+          <span className="italic">
+            Reef-Kelp, Reef-Vegetated, Reef-Grazed, Reef-Urchin-Barren,
+            Reef-Partial-Grazed, Reef-Partial-Urchin-Barren, or Unconsolidated.
+          </span>
         </p>
-        <p className="font-semibold !text-black text-justify tracking-normal md:text-[1.1rem] text-[1rem] my-2">
-          <span className="text-accent font-bold text-2xl">Publications</span>{" "}
-          <br />
-          <br />
-          1. Heidari, S., Rogers, M., & Delmas, P. (2021, December). An improved
-          quantum solution for the stereo matching problem. In 2021 36th
-          International Conference on Image and Vision Computing New Zealand
-          (IVCNZ) (pp. 1-6). IEEE.{" "}
-          <a
-            href="https://ieeexplore.ieee.org/abstract/document/9653310?casa_token=73qEgBWLyGsAAAAA:HReKXWZP7YbkBEJJRqouHsMrNP82zp1e62EpPKqLwa3DHE5fExnk6ELLRN73I26AQ52HotXFfQ"
-            className="text-accent cursor-pointer ml-2"
-          >
-            [Link]
-          </a>
-          <br />
-          <br />
-          2. Heidari, S., & Delmas, P. (2023, August). A Hybrid
-          Quantum-Classical Segment-Based Stereo Matching Algorithm.
-          In International Conference on Advanced Concepts for Intelligent
-          Vision Systems (pp. 1-13). Cham: Springer Nature Switzerland.
-          <a
-            href="https://link.springer.com/chapter/10.1007/978-3-031-45382-3_1"
-            className="text-accent cursor-pointer ml-2"
-          >
-            [Link]
-          </a>
-          <br />
-          <br />
-          3. Heidari, S., Dinneen, M. J., & Delmas, P. (2023). An Equivalent
-          QUBO Model to the Minimum Multi-Way Cut Problem. International Journal
-          of Unconventional Computing, 18(1).
-          <a
-            href="https://openurl.ebsco.com/EPDB%3Agcd%3A14%3A10690846/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A162719806&crl=c&link_origin=scholar.google.com"
-            className="text-accent cursor-pointer ml-2"
-          >
-            [Link]
-          </a>{" "}
-          <br />
-          <br />
-          4. Heidari, S., Dinneen, M. J., & Delmas, P. (2024). Quantum Annealing
-          for Computer Vision Minimization Problems. Future Generation Computer
-          Systems, 160, 54-64.
-          <a
-            href="https://www.sciencedirect.com/science/article/pii/S0167739X24002590"
-            className="text-accent cursor-pointer ml-2"
-          >
-            [Link]
-          </a>
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-5 !font-normal">
+          The full paper detailing this work is currently under review and will
+          be available online soon.
         </p>
+        <div className="flex flex-col md:flex-row w-full mx-auto">
+          <img className="md:w-full m-4" src={Figure5} alt="" />
+          <img className="md:w-full m-4" src={Figure6} alt="" />
+        </div>
+        <div className="h-20" />
       </div>
     </>
   );

@@ -55,7 +55,7 @@ const ExpandableCard = () => {
               className="btn-container p-1 rounded-4xl mt-2 bg-accent w-[100%] flex justify-center items-center"
             >
               <button className="w-full">
-                {isExpand ? "Close" : "About Me"}
+                {isExpand ? "Close" : "About Shah"}
               </button>
             </motion.div>
           </motion.div>
@@ -67,7 +67,7 @@ const ExpandableCard = () => {
         }}
         className={`btn-container absolute bottom-[15%]  rounded-4xl mt-2 bg-accent  p-3 ${isExpand ? "invisible" : "visible"}`}
       >
-        <button className="w-full">{isExpand ? "Close" : "About Me"}</button>
+        <button className="w-full">{isExpand ? "Close" : "About Shah"}</button>
       </motion.div>
     </motion.div>
   );
