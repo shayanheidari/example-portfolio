@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import project1 from "../assets/project1.png";
+import project1 from "../assets/works/marine/1/Figure3.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
@@ -19,10 +19,24 @@ import {
 import { Link } from "react-router";
 const projects = [
   {
-    img: project2,
-    title: "Object detection Project",
+    img: project1,
+    title: "Habibot",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum blanditiis delectus dicta maxime, omnis veniam, dignissimos placeat laboriosam aliquam laborum sit incidunt. Hic suscipit maiores est consectetur vero non. Quae! UI for frontend development using Tailwind",
+      "The CCAI project addresses the ecological threats posed by climate-driven species redistributions, with a focus on the rapid proliferation of sea urchins and their impact on kelp-dominated reef systems across Australia and New Zealand. By leveraging machine learning, the project aims to deliver scalable tools for monitoring urchin expansion and kelp forest decline, providing actionable data for proactive reef management.",
+    links: {
+      site: "/example-portfolio/works/marine/1",
+      github: "#",
+    },
+    icon: {
+      deactive: <PiNumberCircleOneLight />,
+      active: <PiNumberCircleOneFill />,
+    },
+  },
+  {
+    img: project2,
+    title: "2",
+    description:
+      "The CCAI project addresses the ecological threats posed by climate-driven species redistributions, with a focus on the rapid proliferation of sea urchins and their impact on kelp-dominated reef systems across Australia and New Zealand. By leveraging machine learning, the project aims to deliver scalable tools for monitoring urchin expansion and kelp forest decline, providing actionable data for proactive reef management.",
     links: {
       site: "/example-portfolio/works/marine/1",
       github: "#",
@@ -80,7 +94,7 @@ const ProjectsMarine = () => {
         </div>
         <div className="w-full md:w-[65vw] md:h-[65vh] md:mt-0 mt-20 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
           <div className="flex flex-col md:gap-4 md:flex-row justify-center">
-            <div className="w-full md:w-150 h-70 md:h-[50vh] p-1 ">
+            <div className="w-full md:w-150  p-1 ">
               <img
                 src={projects[currentProject].img}
                 alt={projects[currentProject].title}
