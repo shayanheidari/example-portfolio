@@ -17,38 +17,6 @@ const Marine1 = () => {
           Habitats and Sea Urchin Impacts
         </h1>
         <span className="w-full bg-accent h-[4px] mt-3 rounded-3xl" />
-        <h2 className="my-5 italic text-lg md:text-xl text-accent font-[200]">
-          Ph.D. Thesis — Dean's List Award Recipient, July 2024
-        </h2>
-        <h3 className="text-black text-lg mt-2 underline font-[300]">
-          Featuring Fall 2024 Editor’s Choice Paper in Future Generation
-          Computer Systems Journal
-        </h3>
-
-        <div className="mt-5 flex gap-2 justify-center md:justify-start">
-          <div className=" border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
-            <Link
-              to="PhD-Thesis-Shahrokh-Heidari.pdf.pdf"
-              target="_blank"
-              download
-            >
-              <p className="!text-accent">
-                <CiSaveDown1 className="inline-block text-xl" /> Thesis
-              </p>
-            </Link>
-          </div>
-          <div className="border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
-            <Link
-              to="PhD-Thesis-Slides-Shahrokh-Heidari.pdf"
-              target="_blank"
-              download
-            >
-              <p className="!text-accent">
-                <CiSaveDown1 className="inline-block text-xl" /> Slides
-              </p>
-            </Link>
-          </div>
-        </div>
 
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           <span className="text-4xl inline-block">C</span>omputer Vision (CV)
