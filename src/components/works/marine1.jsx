@@ -26,7 +26,7 @@ const Marine1 = () => {
           autoPlay
           muted
           loop
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          className="m-4 md:m-10"
         ></video>
 
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
@@ -132,11 +132,7 @@ const Marine1 = () => {
           urchin species, providing precise instance-level detections beyond
           what patch/frame classifiers could reliably offer.
         </p>
-        <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
-          src={Figure2}
-          alt=""
-        />
+        <img className="m-4 md:m-10" src={Figure2} alt="" />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           For both patch and frame classification, we employed deep
           convolutional neural networks using a transfer learning approach.
@@ -147,16 +143,8 @@ const Marine1 = () => {
           classifier, while InceptionV3 was chosen for the frame classifier for
           its robustness in modeling broader spatial and ecological patterns.
         </p>
-        <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
-          src={Figure3}
-          alt=""
-        />
-        <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
-          src={Figure4}
-          alt=""
-        />
+        <img className="m-4 md:m-10" src={Figure3} alt="" />
+        <img className="m-4 md:m-10" src={Figure4} alt="" />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To integrate the strengths of both spatial and species-level
           information, we developed a rule-based habitat classifier that
