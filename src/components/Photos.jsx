@@ -83,6 +83,10 @@ const projects = [
 const Photos = () => {
   const [currentProject, setCurrentProject] = useState(0);
   const [currentPic, setCurrentPic] = useState(0);
+  const handleClick = (index) => {
+    setCurrentProject(index);
+    setCurrentPic(0);
+  };
   return (
     <>
       <div
@@ -96,7 +100,7 @@ const Photos = () => {
         </div>
         <div className="w-full md:w-[65vw] md:h-[65vh] h-[65vh] md:mt-0 mt-10 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
           <div className="flex flex-col gap-4 md:flex-row justify-center">
-            <div className="relative w-full md:w-150 h-full md:h-[50vh]  rounded-2xl">
+            <div className="relative w-full md:w-full h-full md:h-[50vh]  rounded-2xl">
               <img
                 src={projects[currentProject].img[currentPic]}
                 alt={projects[currentProject].title}
@@ -128,7 +132,7 @@ const Photos = () => {
                 {projects.map((project, index) => (
                   <li
                     key={index}
-                    onClick={() => setCurrentProject(index)}
+                    onClick={() => handleClick(index)}
                     className={`text-4xl cursor-pointer ${currentProject === index ? "text-accent" : "text-text"}`}
                   >
                     {currentProject === index
