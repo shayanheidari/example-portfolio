@@ -30,7 +30,7 @@ const Marine1 = () => {
               download
             >
               <p className="!text-accent">
-                <CiSaveDown1 className="inline-block text-xl" /> Slides
+                <CiSaveDown1 className="inline-block text-xl" /> Paper
               </p>
             </Link>
           </div>
