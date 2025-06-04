@@ -52,20 +52,20 @@ const Marine1 = () => {
           monitoring and seabed habitat assessment.
         </p>
 
-        <div className="flex flex-col md:flex-row w-full mx-auto">
+        <div className="flex flex-col md:flex-row md:w-[90%] md:mx-auto">
           <video
             src={Video1}
             autoPlay
             muted
             loop
-            className="md:w-[50%] m-4 md:m-10"
+            className="md:w-[40%] m-4 md:m-10"
           ></video>
           <video
             src={Video2}
             autoPlay
             muted
             loop
-            className="md:w-[50%] m-4 md:m-10"
+            className="md:w-[40%] m-4 md:m-10"
           ></video>
         </div>
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
@@ -84,7 +84,11 @@ const Marine1 = () => {
           extracts meaningful microtopographic metrics from monocular underwater
           video footage.
         </p>
-        <img className="m-4 md:m-10" src={Figure1} alt="" />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure1}
+          alt=""
+        />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To achieve this, we developed a zero-shot framework that leverages{" "}
           <a
@@ -104,7 +108,11 @@ const Marine1 = () => {
           preprocessing, depth estimation, and microtopographic feature
           extraction.
         </p>
-        <img className="m-4 md:m-10" src={Figure2} alt="" />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure2}
+          alt=""
+        />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           The above figure shows the depth estimation on the sediment data
           examples: (a) two sequential video frames as a pair of stereo images,
@@ -121,7 +129,11 @@ const Marine1 = () => {
           at two known locations around Te Hauturu-o-Toi / Little Barrier
           Island.
         </p>
-        <img className="m-4 md:m-10" src={Figure3} alt="" />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure3}
+          alt=""
+        />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-5">
           To ensure realistic underwater imaging conditions, calibration for the
           same camera was performed in a seawater-filled tank at the Goat Island
@@ -129,7 +141,7 @@ const Marine1 = () => {
         </p>
 
         <img
-          className="m-4 md:m-10 md:h-100 md:w-120 md:mx-auto"
+          className="m-4 md:m-10 md:w-[40%] md:mx-auto"
           src={Figure4}
           alt=""
         />
@@ -141,8 +153,8 @@ const Marine1 = () => {
           potential for generalizable sediment analysis.
         </p>
 
-        <img className="md:w-full m-4" src={Figure5} alt="" />
-        <img className="md:w-full m-4" src={Figure6} alt="" />
+        <img className="m-4 md:w-[60%] md:mx-auto" src={Figure5} alt="" />
+        <img className="m-4 md:w-[60%] md:mx-auto" src={Figure6} alt="" />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-5">
           Although the proposed framework is cost-effective, it has specific
           limitations. We observed that the camera must remain close enough to
