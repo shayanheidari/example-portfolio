@@ -24,8 +24,8 @@ function App() {
           <Background />
           <Expertise />
           <ProjectList />
-          <Photos />
           <Awards />
+          <Photos />
           <Contact />
         </div>
       </body>

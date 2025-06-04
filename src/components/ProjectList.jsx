@@ -25,18 +25,13 @@ const ProjectList = () => {
                 alt=""
               />
               <div className="p-3 flex flex-col grow mt-2">
-                <h3 className="font-semibold text-2xl text-accent pb-3">
+                <h3 className="font-semibold text-center text-2xl text-accent pb-3">
                   Marine Science
                 </h3>
                 <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Se
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                  temporibus error quae aliquam ea! Dolore adipisci, debitis ea,
-                  voluptatum inventore velit ad dolor aperiam explicabo
-                  assumenda tempora nisi vero nobis? d accusantium quae
-                  reprehenderit vitae eos est beatae tempore sit perferendis?
-                  Animi similique, blanditiis odio quidem voluptatibus non?
-                  Corporis possimus debitis modi?
+                  Projects advancing marine ecosystem monitoring through AI,
+                  computer vision, and underwater remote sensing, reflecting my
+                  current research focus.
                 </p>
               </div>
 
@@ -52,14 +47,13 @@ const ProjectList = () => {
             <div className="w-full h-full flex flex-col justify-between">
               <img src={side} className="w-full h-[30%] object-cover" alt="" />
               <div className="p-3 flex flex-col grow mt-2">
-                <h3 className="font-semibold text-2xl text-accent pb-3">
+                <h3 className="font-semibold text-center text-2xl text-accent pb-3">
                   Others
                 </h3>
                 <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci reprehenderit itaque minus quam iure odit, maxime
-                  labore vero cupiditate quisquam, delectus officia ipsum iusto
-                  laudantium. At natus veritatis voluptatibus voluptas!
+                  A selection of earlier and parallel projects across AI,
+                  computer vision, and applied photogrammetry beyond the marine
+                  domain.
                 </p>
               </div>
 
@@ -80,25 +74,13 @@ const ProjectList = () => {
                 alt=""
               />
               <div className="p-3 flex flex-col grow mt-2">
-                <h3 className="font-semibold text-2xl text-accent pb-3">
+                <h3 className="font-semibold text-2xl text-center text-accent pb-3">
                   PhD Thesis
                 </h3>
                 <p className="text-justify max-w-100 overflow-y-scroll overflow-hidden h-45 md:h-65 no-scrollbar">
-                  Computer Vision (CV) labelling problems play a pivotal role in
-                  low-level vision. For decades, it has been known that these
-                  problems can be elegantly formulated as discrete
-                  energy-minimization problems derived from probabilistic
-                  graphical models such as Markov Random Fields (MRFs). Despite
-                  recent advances in MRF inference algorithms (such as graph-cut
-                  and message-passing methods), the resulting
-                  energy-minimization problems are generally viewed as
-                  intractable. The emergence of quantum computations, which
-                  offer the potential for faster solutions to certain problems
-                  than classical methods, has led to an increased interest in
-                  utilizing quantum properties to overcome intractable problems.
-                  Recently, there has also been a growing interest in Quantum
-                  Computer Vision (QCV), hoping to provide a credible
-                  alternative/assistant to deep learning solutions.
+                  Research from my doctoral work on quantum annealing for
+                  computer vision, exploring novel optimization for stereo
+                  matching and 3D 3rtyreconstruction
                 </p>
               </div>
 

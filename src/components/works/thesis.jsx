@@ -16,13 +16,13 @@ const Thesis = () => {
           Quantum Annealing in Computer Vision
         </h1>
         <span className="w-full bg-accent h-[4px] mt-3 rounded-3xl" />
-        <h2 className="my-5 italic text-lg md:text-xl text-accent font-[200]">
+        <h2 className="mt-5 mb-2 italic text-lg md:text-xl text-accent font-[200]">
           Ph.D. Thesis — Dean's List Award Recipient, July 2024
         </h2>
-        <h3 className="text-black text-lg mt-2 underline font-[300]">
+        <h2 className="mb-2 italic text-lg md:text-xl text-accent font-[200]">
           Featuring Fall 2024 Editor’s Choice Paper in Future Generation
           Computer Systems Journal
-        </h3>
+        </h2>
 
         <div className="mt-5 flex gap-2 justify-center md:justify-start">
           <div className=" border border-accent py-1 px-3 w-full md:w-auto rounded-3xl text-center">
@@ -66,7 +66,7 @@ const Thesis = () => {
           alternative/assistant to deep learning solutions.
         </p>
         <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
           src={Figure1}
           alt=""
         />
@@ -80,7 +80,7 @@ const Thesis = () => {
           considered an open problem with no perfect solution.
         </p>
         <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
           src={Figure2}
           alt=""
         />
@@ -104,7 +104,7 @@ const Thesis = () => {
           diverse Stereo Matching scenarios.
         </p>
         <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
           src={Figure3}
           alt=""
         />
@@ -115,7 +115,7 @@ const Thesis = () => {
           quantum-classical Stereo Matching algorithm.
         </p>
         <img
-          className="rounded-xl md:rounded-3xl m-4 md:m-10"
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
           src={Figure4}
           alt=""
         />
@@ -131,7 +131,7 @@ const Thesis = () => {
           potential for Stereo Matching applications has yet to be fully
           realized. Our investigation also extends to the limitations.
         </p>
-        <p className="font-semibold !text-black text-justify tracking-normal md:text-[1.1rem] text-[1rem] my-2">
+        <p className="font-semibold !text-black text-justify tracking-normal !text-[0.8rem] my-2">
           <span className="text-accent font-bold text-2xl">Publications</span>{" "}
           <br />
           <br />
@@ -180,6 +180,7 @@ const Thesis = () => {
             [Link]
           </a>
         </p>
+        <div className="h-20" />
       </div>
     </>
   );

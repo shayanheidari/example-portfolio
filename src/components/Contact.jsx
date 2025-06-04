@@ -29,7 +29,7 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://scholar.google.com/citations?user=3qtK8QwAAAAJ&hl=en"
                   >
-                    <FaGoogleScholar className="text-accent inline-block mr-2" />
+                    <FaGoogleScholar className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />
                     Google Scholar
                   </a>
                 </li>
@@ -38,7 +38,7 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://nz.linkedin.com/in/shahrokh-heidari-2a1338a7"
                   >
-                    <FaLinkedin className="text-accent inline-block mr-2" />{" "}
+                    <FaLinkedin className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />{" "}
                     LinkedIn
                   </a>
                 </li>
@@ -47,7 +47,7 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://profiles.auckland.ac.nz/shahrokh-heidari"
                   >
-                    <FaUniversity className="text-accent inline-block mr-2" />{" "}
+                    <FaUniversity className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />{" "}
                     Auckland University
                   </a>
                 </li>
@@ -56,7 +56,8 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://orcid.org/0000-0002-1727-939X"
                   >
-                    <SiOrcid className="text-accent inline-block mr-2" /> ORCID
+                    <SiOrcid className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />{" "}
+                    ORCID
                   </a>
                 </li>
                 <li className="text-accent">
@@ -64,7 +65,7 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://www.researchgate.net/profile/Shahrokh-Heidari"
                   >
-                    <FaResearchgate className="text-accent inline-block mr-2" />{" "}
+                    <FaResearchgate className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />{" "}
                     ResearchGate
                   </a>
                 </li>
@@ -73,7 +74,7 @@ const Contact = () => {
                     className="text-text w-full text-center md:block hover:text-accent transition duration-100 delay-100"
                     href="https://www.webofscience.com/wos/author/record/I-7935-2019"
                   >
-                    <SiClarivate className="text-accent inline-block mr-2" />
+                    <SiClarivate className="text-accent inline-block md:text-4xl md:mr-4 mr-2" />
                     Web Of Science
                   </a>
                 </li>
