@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import project1 from "../assets/works/marine/1/Figure3.png";
-import project2 from "../assets/project2.png";
+import project2 from "../assets/works/marine/2/Figure6.jpg";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -34,11 +34,11 @@ const projects = [
   },
   {
     img: project2,
-    title: "2",
+    title: "Zero-Shot Seafloor",
     description:
-      "The CCAI project addresses the ecological threats posed by climate-driven species redistributions, with a focus on the rapid proliferation of sea urchins and their impact on kelp-dominated reef systems across Australia and New Zealand. By leveraging machine learning, the project aims to deliver scalable tools for monitoring urchin expansion and kelp forest decline, providing actionable data for proactive reef management.",
+      "We developed a novel framework for characterizing seafloor sediment microtopography using underwater video footage. The primary goal of this work is to enable scalable, non-invasive methods for both retrospective and in-situ sediment analysis in support of ecological monitoring and seabed habitat assessment.",
     links: {
-      site: "/example-portfolio/works/marine/1",
+      site: "/example-portfolio/works/marine/2",
       github: "#",
     },
     icon: {

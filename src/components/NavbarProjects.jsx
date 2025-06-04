@@ -28,45 +28,45 @@ const NavbarProjects = () => {
         </div>
         <ul className="hidden font-extralight md:flex gap-12 z-30 cursor-pointer">
           <li className="relative group">
-            <a href="/example-portfolio/">About</a>
+            <a href="/example-portfolio/#about">About</a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#background" className="scroll-smooth">
+            <a href="/example-portfolio/#background" className="scroll-smooth">
               Background
             </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <a href="#expertise" className="scroll-smooth">
+            <a href="/example-portfolio/#expertise" className="scroll-smooth">
               Expertise
             </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#projects" className="scroll-smooth">
+            <a href="/example-portfolio/#projects" className="scroll-smooth">
               Projects
             </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#photos" className="scroll-smooth">
+            <a href="/example-portfolio/#photos" className="scroll-smooth">
               Photos
             </a>
             <span className="underline_" />
           </li>
 
           <li className="relative group">
-            <a href="#awards" className="scroll-smooth">
+            <a href="/example-portfolio/#awards" className="scroll-smooth">
               Awards
             </a>
             <span className="underline_" />
           </li>
           <li className="relative group">
-            <a href="#contact" className="scroll-smooth">
+            <a href="/example-portfolio/#contact" className="scroll-smooth">
               Contact
             </a>
             <span className="underline_" />
@@ -85,40 +85,40 @@ const NavbarProjects = () => {
           <div className="flex flex-col justify-between h-screen">
             <ul className="font-extralight text-left ml-15 text-3xl space-y-8 mt-24">
               <li className="cursor-pointer">
-                <a href="/example-portfolio/" onClick={closeNav}>
+                <a href="/example-portfolio/#about" onClick={closeNav}>
                   About
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#background" onClick={closeNav}>
+                <a href="/example-portfolio/#background" onClick={closeNav}>
                   Background
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#expertise" onClick={closeNav}>
+                <a href="/example-portfolio/#expertise" onClick={closeNav}>
                   Expertise
                 </a>
               </li>
 
               <li className="cursor-pointer">
-                <a href="#projects" onClick={closeNav}>
+                <a href="/example-portfolio/#projects" onClick={closeNav}>
                   Projects
                 </a>
               </li>
 
               <li className="cursor-pointer">
-                <a href="#photos" onClick={closeNav}>
+                <a href="/example-portfolio/#photos" onClick={closeNav}>
                   Photos
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#awards" onClick={closeNav}>
+                <a href="/example-portfolio/#awards" onClick={closeNav}>
                   Awards
                 </a>
               </li>
 
               <li className="cursor-pointer">
-                <a href="#contact" onClick={closeNav}>
+                <a href="/example-portfolio/#contact" onClick={closeNav}>
                   Contact
                 </a>
               </li>
