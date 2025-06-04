@@ -58,14 +58,14 @@ const Marine1 = () => {
             autoPlay
             muted
             loop
-            className="md:w-[40%] m-4 md:m-10"
+            className="md:w-[40%] m-4 md:m-10 md:mx-auto"
           ></video>
           <video
             src={Video2}
             autoPlay
             muted
             loop
-            className="md:w-[40%] m-4 md:m-10"
+            className="md:w-[40%] m-4 md:m-10 md:mx-auto"
           ></video>
         </div>
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">

@@ -26,7 +26,7 @@ const Marine1 = () => {
           autoPlay
           muted
           loop
-          className="m-4 md:m-10"
+          className="md:w-[70%] md:mx-auto m-4 md:m-10"
         ></video>
 
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
