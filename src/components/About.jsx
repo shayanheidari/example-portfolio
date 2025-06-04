@@ -1,7 +1,6 @@
 import "./About.css";
 import ProfilePic from "../assets/ProfilePic.jpg";
-import BackgroundVertical from "../assets/BackgroundVertical.png";
-import BackgroundHorizontal from "../assets/BackgroundHorizontal.png";
+import BackgroundVertical from "../assets/BackgroundVertical.jpg";
 import ExpandableCard from "./ExpandableCard";
 
 const About = () => {
@@ -54,10 +53,9 @@ const About = () => {
           </div>
           <div className="md:inline-block md:w-[30vw] w-full md:h-full h-[30vh]">
             <div
-              className="w-full h-full snap-start md:bg-[image:var(--image-url-vertical)] bg-[image:var(--image-url-horizontal)] bg-center bg-cover bg-no-repeat "
+              className="w-full h-full snap-start md:bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
               style={{
                 "--image-url-vertical": `url(${BackgroundVertical})`,
-                "--image-url-horizontal": `url(${BackgroundHorizontal})`,
               }}
             />
           </div>
@@ -67,9 +65,8 @@ const About = () => {
       <div
         style={{
           "--image-url-vertical": `url(${BackgroundVertical})`,
-          "--image-url-horizontal": `url(${BackgroundHorizontal})`,
         }}
-        className="md:hidden snap-start md:bg-[image:var(--image-url-horizontal)] bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
+        className="md:hidden snap-start bg-[image:var(--image-url-vertical)] bg-center bg-cover bg-no-repeat "
         id="about"
       >
         <div className="relative flex flex-col pt-10 md:flex-row-reverse items-center justify-center md:gap-100 gap-8 content-between mx-auto h-screen">

@@ -1,9 +1,9 @@
 import React from "react";
 import NavbarProjects from "../NavbarProjects.jsx";
-import Figure1 from "../../assets/Figure1.png";
-import Figure2 from "../../assets/Figure2.png";
-import Figure3 from "../../assets/Figure3.png";
-import Figure4 from "../../assets/Figure4.png";
+import Figure1 from "../../assets/works/thesis/Figure1.png";
+import Figure2 from "../../assets/works/thesis/Figure2.png";
+import Figure3 from "../../assets/works/thesis/Figure3.png";
+import Figure4 from "../../assets/works/thesis/Figure4.png";
 import { Link } from "react-router";
 import { CiSaveDown1 } from "react-icons/ci";
 
