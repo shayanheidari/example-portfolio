@@ -132,7 +132,11 @@ const Marine1 = () => {
           urchin species, providing precise instance-level detections beyond
           what patch/frame classifiers could reliably offer.
         </p>
-        <img className="m-4 md:m-10" src={Figure2} alt="" />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure2}
+          alt=""
+        />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           For both patch and frame classification, we employed deep
           convolutional neural networks using a transfer learning approach.
@@ -143,8 +147,16 @@ const Marine1 = () => {
           classifier, while InceptionV3 was chosen for the frame classifier for
           its robustness in modeling broader spatial and ecological patterns.
         </p>
-        <img className="m-4 md:m-10" src={Figure3} alt="" />
-        <img className="m-4 md:m-10" src={Figure4} alt="" />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure3}
+          alt=""
+        />
+        <img
+          className="m-4 md:m-10 md:w-[60%] md:mx-auto"
+          src={Figure4}
+          alt=""
+        />
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">
           To integrate the strengths of both spatial and species-level
           information, we developed a rule-based habitat classifier that
@@ -171,8 +183,8 @@ const Marine1 = () => {
           be available online soon.
         </p>
         <div className="flex flex-col md:flex-row w-full mx-auto">
-          <img className="md:w-full m-4" src={Figure5} alt="" />
-          <img className="md:w-full m-4" src={Figure6} alt="" />
+          <img className="md:w-[40%] md:mx-auto m-4" src={Figure5} alt="" />
+          <img className="md:w-[40%] md:mx-auto  m-4" src={Figure6} alt="" />
         </div>
         <div className="h-20" />
       </div>
