@@ -1,47 +1,40 @@
 import React, { useState } from "react";
-import photo1_1 from "../../public/photos/1/photo1.jpg";
-import photo1_2 from "../../public/photos/1/photo2.jpg";
-import photo1_3 from "../../public/photos/1/photo3.jpg";
-import photo1_4 from "../../public/photos/1/photo4.jpg";
-import photo1_5 from "../../public/photos/1/photo5.jpg";
-import photo1_6 from "../../public/photos/1/photo6.jpg";
-import photo2_1 from "../../public/photos/2/photo1.jpg";
-import photo2_2 from "../../public/photos/2/photo2.jpg";
-import photo2_3 from "../../public/photos/2/photo3.jpg";
-import photo2_4 from "../../public/photos/2/photo4.jpg";
-import photo3_1 from "../../public/photos/3/1.jpg";
+import photo1_1 from "../assets/photos/1/photo1.jpg";
+import photo1_2 from "../assets/photos/1/photo2.jpg";
+import photo1_3 from "../assets/photos/1/photo3.jpg";
+import photo1_4 from "../assets/photos/1/photo4.jpg";
+import photo1_5 from "../assets/photos/1/photo5.jpg";
+import photo1_6 from "../assets/photos/1/photo6.jpg";
+import photo2_1 from "../assets/photos/2/photo1.jpg";
+import photo2_2 from "../assets/photos/2/photo2.jpg";
+import photo2_3 from "../assets/photos/2/photo3.jpg";
+import photo2_4 from "../assets/photos/2/photo4.jpg";
+import photo3_1 from "../assets/photos/3/1.jpg";
 import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 import { FaRegCircle } from "react-icons/fa6";
 import { FaRegCircleDot } from "react-icons/fa6";
+
+const icons = {
+  deactive: <FaRegCircle />,
+  active: <FaRegCircleDot />,
+};
 
 const galleries = [
   {
     images: [photo1_1, photo1_2, photo1_3, photo1_4, photo1_5, photo1_6],
     title: "PhD Graduation Ceremony",
     date: "20th September 2024",
-    icon: {
-      deactive: <FaRegCircle />,
-      active: <FaRegCircleDot />,
-    },
   },
   {
     images: [photo2_1, photo2_2, photo2_3, photo2_4],
     title: "Advanced Concepts for Intelligent Vision Systems (ACIVS)",
     date: "Kumamoto, Japan, 21st-23rd August 2023",
-    icon: {
-      deactive: <FaRegCircle />,
-      active: <FaRegCircleDot />,
-    },
   },
 
   {
     images: [photo3_1],
     title: "Brain/MINDS Data Portal Hackathon",
     date: "Saitama, Japan, 2023",
-    icon: {
-      deactive: <FaRegCircle />,
-      active: <FaRegCircleDot />,
-    },
   },
 ];
 
@@ -80,7 +73,7 @@ const Photos = () => {
         </div>
         <div className="w-full md:w-[65vw] md:h-[65vh] h-[65vh] md:mt-0 mt-10 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
           <div className="flex flex-col gap-4 justify-center mb-10">
-            <div className="relative w-full md:w-full max-h-[40vh] md:h-[50vh]  rounded-2xl">
+            <div className="relative w-full md:w-full max-h-[40vh] md:max-h-[60vh] md:h-[50vh]  rounded-2xl">
               <img
                 src={galleries[currentProject].images[currentPic]}
                 alt={galleries[currentProject].title}
@@ -99,9 +92,9 @@ const Photos = () => {
                 <MdNavigateNext />
               </div>
             </div>
-            <div className="flex flex-col md:flex-row md:justify-between mt-2 ml-4">
+            <div className="flex flex-col md:flex-row md:justify-between gap-4 mt-2 ml-4">
               <div>
-                <h3 className="text-text font-light text-xl max-w-[650px]">
+                <h3 className="text-text font-light text-xl max-w-[550px]">
                   {galleries[currentProject].title}
                 </h3>
                 <p className="!text-accent italic mt-2 max-w-[450px]">
@@ -115,9 +108,7 @@ const Photos = () => {
                     onClick={() => handleClick(index)}
                     className={`text-lg cursor-pointer ${currentProject === index ? "text-accent" : "text-text"}`}
                   >
-                    {currentProject === index
-                      ? project.icon.active
-                      : project.icon.deactive}
+                    {currentProject === index ? icons.active : icons.deactive}
                   </li>
                 ))}
               </ul>
