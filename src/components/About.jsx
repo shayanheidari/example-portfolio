@@ -35,7 +35,7 @@ const About = () => {
                       sensing, with a growing specialization in marine and
                       underwater environments.
                       <br />
-                      <div className="hidden md:flex h-[.5rem]" />
+                      <span className="hidden md:flex h-[.5rem]" />
                       Currently,{" "}
                     </span>
                     I am a Research Fellow on the Oceans of Change project at
@@ -92,7 +92,7 @@ const About = () => {
                   intelligence, photogrammetry, and remote sensing, with a
                   growing specialization in marine and underwater environments.
                   <br />
-                  <div className="hidden md:flex h-[.5rem]" />
+                  <span className="hidden md:flex h-[.5rem]" />
                   Currently,{" "}
                 </span>
                 I am a Research Fellow on the Oceans of Change project at

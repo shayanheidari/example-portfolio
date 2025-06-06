@@ -13,8 +13,6 @@ import Contact from "./components/Contact.jsx";
 import Photos from "./components/Photos.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <body className="bg-background">
