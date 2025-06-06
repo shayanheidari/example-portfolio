@@ -26,8 +26,7 @@ const galleries = [
   },
   {
     images: [photo2_1, photo2_2, photo2_3, photo2_4],
-    title:
-      "Advanced Concepts for Intelligent Vision Systems: 21st International Conference, ACIVS 2023 ",
+    title: "Advanced Concepts for Intelligent Vision Systems (ACIVS)",
     date: "Kumamoto, Japan, 21st-23rd August 2023",
     icon: {
       deactive: <FaRegCircle />,
