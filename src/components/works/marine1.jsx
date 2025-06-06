@@ -26,6 +26,7 @@ const Marine1 = () => {
           autoPlay
           muted
           loop
+          playsInline
           className="md:w-[70%] md:mx-auto m-4 md:m-10"
         ></video>
 
