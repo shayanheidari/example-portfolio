@@ -109,7 +109,7 @@ const Photos = () => {
                   {galleries[currentProject].date}
                 </p>
               </div>
-              <ul className="absolute bottom-[15vh] md:bottom-auto md:relative flex flex-row items-center md:h-full gap-6 justify-center mt-4 md:gap-3 self-center md:mt-2 md:ml-4">
+              <ul className="absolute bottom-[15vh] md:bottom-auto md:relative flex flex-row items-center md:h-full gap-6 justify-center mt-4 md:gap-3 self-center md:mt-2 md:mr-4">
                 {galleries.map((project, index) => (
                   <li
                     key={index}
