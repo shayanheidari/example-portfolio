@@ -81,7 +81,7 @@ const Photos = () => {
         </div>
         <div className="w-full md:w-[65vw] md:h-[65vh] h-[65vh] md:mt-0 mt-10 flex flex-col md:flex-row justify-center items-center content-center md:pt-0 pt-5 px-5">
           <div className="flex flex-col gap-4 justify-center mb-10">
-            <div className="relative w-full md:w-full max-h-[50vh] md:h-[50vh]  rounded-2xl">
+            <div className="relative w-full md:w-full max-h-[40vh] md:h-[50vh]  rounded-2xl">
               <img
                 src={galleries[currentProject].images[currentPic]}
                 alt={galleries[currentProject].title}
