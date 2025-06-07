@@ -59,6 +59,7 @@ const Marine1 = () => {
             muted
             loop
             className="md:w-[40%] m-4 md:m-10 md:mx-auto"
+            playsInline
           ></video>
           <video
             src={Video2}
@@ -66,6 +67,7 @@ const Marine1 = () => {
             muted
             loop
             className="md:w-[40%] m-4 md:m-10 md:mx-auto"
+            playsInline
           ></video>
         </div>
         <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-2">

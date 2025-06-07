@@ -58,7 +58,7 @@ const ProjectList = () => {
               </div>
 
               <Link
-                to="/example-portfolio/works/side/"
+                to="/example-portfolio/works/others/"
                 className="text-background text-center p-3 font-medium bg-accent cursor-pointer"
               >
                 More

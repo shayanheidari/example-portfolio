@@ -9,6 +9,7 @@ import ProjectsMarine from "./components/ProjectsMarine.jsx";
 import ProjectsSide from "./components/ProjectsSide.jsx";
 import Marine1 from "./components/works/marine1.jsx";
 import Marine2 from "./components/works/marine2.jsx";
+import Others1 from "./components/works/others1.jsx";
 
 const router = createBrowserRouter([
   { path: "/example-portfolio/", element: <App /> },
@@ -16,7 +17,8 @@ const router = createBrowserRouter([
   { path: "/example-portfolio/works/marine/", element: <ProjectsMarine /> },
   { path: "/example-portfolio/works/marine/1", element: <Marine1 /> },
   { path: "/example-portfolio/works/marine/2", element: <Marine2 /> },
-  { path: "/example-portfolio/works/side/", element: <ProjectsSide /> },
+  { path: "/example-portfolio/works/others/", element: <ProjectsSide /> },
+  { path: "/example-portfolio/works/others/1", element: <Others1 /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

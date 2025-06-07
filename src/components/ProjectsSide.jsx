@@ -23,7 +23,7 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum blanditiis delectus dicta maxime, omnis veniam, dignissimos placeat laboriosam aliquam laborum sit incidunt. Hic suscipit maiores est consectetur vero non. Quae! UI for frontend development using Tailwind",
     links: {
-      site: "#",
+      site: "/example-portfolio/works/others/1",
       github: "#",
     },
     icon: {
