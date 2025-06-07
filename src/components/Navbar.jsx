@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="flex bg-text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-30">
+      <div className="flex text-xl justify-between fixed top-0 w-full text-text items-center px-6 mx-auto h-18 z-30">
         <div className="flex flex-row gap-2 items-center">
           <div className="bg-accent h-3 w-3 rounded-lg" />
           <a
