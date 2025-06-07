@@ -23,7 +23,7 @@ const galleries = [
   {
     images: [photo1_1, photo1_2, photo1_3, photo1_4, photo1_5, photo1_6],
     title: "PhD Graduation Ceremony",
-    date: "20th September 2024",
+    date: "Auckland, New Zealand, 20th September 2024",
   },
   {
     images: [photo2_1, photo2_2, photo2_3, photo2_4],
