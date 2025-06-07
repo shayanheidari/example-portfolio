@@ -203,7 +203,10 @@ const Others1 = () => {
         </p>
 
         <img className="m-4 md:w-[60%] md:mx-auto" src={Figure6} alt="" />
-
+        <p className="!text-black text-justify tracking-normal md:text-[1.2rem] text-[1.1rem] my-5 !font-normal">
+          The full paper detailing this work is currently under review and will
+          be available online soon.
+        </p>
         <div className="h-20" />
       </div>
     </>
